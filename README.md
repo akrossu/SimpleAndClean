@@ -7,6 +7,8 @@ The objective of this theme is to achieve as clean of a UI as possible without n
 ![banner](https://github.com/akrossu/SimpleAndClean/blob/main/resources/theme.png?raw=true)
 
 ## Features
+- No branding or toolbar.
+    - You may use windows function keys such as win+up or win+down to maximize and minimize discord.
 - Highly customizable (if anyone has a link to the theme customizer thing plugin pls send it to me)
 - Per radius and margin element size adjustability.
 - Huge color pallete.
