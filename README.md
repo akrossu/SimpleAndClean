@@ -4,15 +4,13 @@ The objective of this theme is to achieve as clean of a UI as possible without n
 
 > Note that my prior [Modified Rounded Dark](https://github.com/akrossu/ModifiedRoundedDark) theme is more than likely not going see any further updates and development will move to this theme.
 
-![banner](https://github.com/akrossu/SimpleAndClean/blob/main/resources/simple%20and%20clean%20theme.png?raw=true)
+![banner](https://github.com/akrossu/SimpleAndClean/blob/main/resources/theme.png?raw=true)
 
 ## Features
-- No branding or titlebar.
-  - You may use win+up arrow or win+down arrow to minimize and maximize discord instead.
 - Highly customizable (if anyone has a link to the theme customizer thing plugin pls send it to me)
 - Per radius and margin element size adjustability.
 - Huge color pallete.
-- Additionally, I try to comment exactly what every element does so if you're a developer or just want to make specific changes, it's easy to see where to do so!
+- Additionally, I try to comment exactly what every element does so if you're a developer or want to make even more changes, it's easy to see where to do so!
 
 <hr>
 
@@ -20,3 +18,9 @@ The objective of this theme is to achieve as clean of a UI as possible without n
 
 [![SimpleAndClean](https://github-readme-stats.vercel.app/api/pin/?username=akrossu&repo=SimpleAndClean&bg_color=1B1D23&title_color=FFFFFF&text_color=AAAAAA&icon_color=D68881&hide_border=true)](https://github.com/akrossu/SimpleAndClean)
 [![ModifiedRoundedDark](https://github-readme-stats.vercel.app/api/pin/?username=akrossu&repo=modifiedroundeddark&bg_color=1B1D23&title_color=FFFFFF&text_color=AAAAAA&icon_color=D68881&hide_border=true)](https://github.com/akrossu/ModifiedRoundedDark)
+
+<hr>
+
+honestly this was kinda just to have a matching theme between my spotify and discord blehh
+
+![spotify](https://github.com/akrossu/SimpleAndClean/blob/main/resources/spotify.png?raw=true)
