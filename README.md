@@ -7,10 +7,12 @@ The objective of this theme is to achieve as clean of a UI as possible without n
 ![banner](https://github.com/akrossu/SimpleAndClean/blob/main/resources/simple%20and%20clean%20theme.png?raw=true)
 
 ## Features
+- No branding or titlebar.
+  - You may use win+up arrow or win+down arrow to minimize and maximize discord instead.
 - Highly customizable (if anyone has a link to the theme customizer thing plugin pls send it to me)
 - Per radius and margin element size adjustability.
 - Huge color pallete.
-- Additionally, I try to comment exactly what every element does so if you're a developer or want to make even more changes, it's easy to see where to do so!
+- Additionally, I try to comment exactly what every element does so if you're a developer or just want to make specific changes, it's easy to see where to do so!
 
 <hr>
 
