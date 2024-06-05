@@ -1,0 +1,315 @@
+
+/* ----------------------------------------------- */
+/*                   App Header                    */
+/* ----------------------------------------------- */
+
+#app-mount .typeWindows_e41dab { /* Fixes the margin and height of draggable header */
+    margin: 0;
+    padding: 0;
+    height: var(--app-border-margin) !important;
+}
+
+#app-mount .wordmarkWindows_ffbc5e,
+#app-mount .winButtonClose__6396d,
+#app-mount .winButtonMinMax_caf9c8 { /* Hides the top bar text and windows functions */
+    display: none;
+}
+
+.theme-dark .appMount_c99875,
+.theme-dark .typeWindows_e41dab,
+.theme-dark .guilds__2b93a,
+.theme-dark .bg__12180 { /* Main window background color */
+    background-color: var(--app-primary-color) !important;
+}
+
+.appAsidePanelWrapper__5e6e2 { /* Main window margin width */
+    margin: 0 var(--app-border-margin) var(--app-border-margin) 0;
+}
+
+.theme-dark .content__76dcf {
+    background: var(--bg-overlay-3, var(--background-secondary-alt)) !important;
+}
+
+.base_c0676e { /* Main window border radius */
+    border-radius: var(--app-border-radius);
+}
+
+/* ------------------ Scrollbars ------------------*/
+
+/* Consistant Scrollbar width (for some reason istg every scrollbar has a different default width?) */
+.scroller_e412fe::-webkit-scrollbar, /* Main chat window SB */
+.peopleList_d2f527::-webkit-scrollbar, /* Friends list SB */
+.mainPageScroller_a3deff::-webkit-scrollbar /* Nitro Page SB */ {
+    width: 12px !important;
+}
+
+/* Transparent props */
+::-webkit-scrollbar-track,
+.inlineMediaEmbed_b25e49,
+.imageContent__0fe2a /* Transparent image background fix */ {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--app-accent-color) !important;
+}
+
+/* ----------------------------------------------- */
+/*                   Server List                   */
+/* ----------------------------------------------- */
+
+
+
+/* ----------------------------------------------- */
+/*               Sidebar Components                */
+/* ----------------------------------------------- */
+
+/* Light theme combatability */
+.theme-light .panels__58331, /* User / Voice Area */
+.theme-light .scroller__89969 { /* Private Messages */
+    background: var(--bg-overlay-3, var(--background-secondary-alt)) !important;
+}
+.theme-light .searchBar__621ec /* DM searchbar titlebar */ {
+    background: var(--bg-overlay-1, var(--background-primary)) !important;
+}
+
+/* Dark theme combatability */
+.theme-dark .panels__58331, /* User / Voice Area */
+.theme-dark .scroller__89969 { /* Private Messages */
+    background: var(--bg-overlay-3, var(--background-secondary-alt)) !important;
+}
+.theme-dark .searchBar__621ec /* DM searchbar titlebar */ {
+    background: var(--bg-overlay-2, var(--background-secondary-alt)) !important;
+}
+/* gradient above user section */
+/* .theme-dark .wrapper_e832ee::before  {
+    background-color: linear-gradient(180deg, rgba(0, 0, 0, 0)0%, rgba(var(--bg-overlay-2, var(--background-secondary-alt)), 1)100%) !important;
+} */
+
+.theme-dark .container_e1958d, /* Voice Area */
+.theme-dark .searchBarComponent__8f95f, /* Searchbar */
+.theme-dark .activityPanel_b73e7a, /* Activity Area */
+.theme-dark .container_debb33, /* User Area */
+.theme-dark .inner__999f6 /* Friends List search bar */ {
+    background-color: var(--app-primary-color) !important;
+}
+
+.theme-dark .container__7e23c, /* Server Channels */
+.theme-dark .scroller__89969, /* user dms */
+.theme-dark .panels__58331 { /* User / Voice Area */
+    background-color: var(--app-secondary-color) !important;
+}
+
+.theme-dark .container_f41675, /* Sidebar Title (ex. Server name background)  */
+.theme-dark .searchBar__621ec /* DM searchbar titlebar */ {
+    background-color: var(--app-tri-color) !important;
+}
+
+/* --------------- Voice/User Area --------------- */
+
+/* gradient above user section */
+/* TOFIX: Currently does not have combatability with discord themes. */
+/* .theme-dark .wrapper_e832ee::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: calc(var(--app-border-margin) * -2);
+    left: calc(var(--app-border-margin) * -1);
+    width: 100vw;
+    height: 0.5rem;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0)0%, var(--app-secondary-color, 1)100%) !important;
+} */
+
+.sidebar_e031be, /* Sidebar */
+.bannerImg_fe5c1b { /* Server banner image container */
+    width: 256px !important;
+}
+
+.animatedContainer__0e828 { /* Server banner image */
+    border-radius: 0 0 var(--app-border-radius) var(--app-border-radius);
+}
+
+.container_e1958d, /* Voice Area */
+.activityPanel_b73e7a { /* Activity Area */
+    margin-bottom: var(--app-border-margin);
+}
+
+.container_e1958d, /* Voice Area */
+.activityPanel_b73e7a { /* Voice/Activity Area border color Fix */
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.container_debb33 { /* User Area; Height Fix to match Message Form height */
+    height: 44px;
+}
+
+.container_debb33, /* User Area */
+.container_e1958d, /* Voice Area */
+.wrapper_e832ee, /* Voice Area Wrapper */
+.body_dc19cb, /* Activity Area Body */
+.activityPanel_b73e7a { /* User/Voice Area border */
+    border-radius: var(--app-border-radius) !important;
+}
+
+.panels__58331 { /* Area wrapper FIX */
+    margin: 0;
+    padding: var(--app-border-margin);
+}
+
+.buttonActive_ae686f { /* Voice Area Action Buttons FIX */
+    background-color: var(--app-accent-color) !important;
+}
+
+/* ----------------------------------------------- */
+/*                 Chat Components                 */
+/* ----------------------------------------------- */
+.theme-dark .scrollableContainer_ff917f /* Message Box form */ {
+    background: var(--bg-overlay-1, var(--background-secondary-alt)) !important;
+}
+
+.theme-dark .scrollableContainer_ff917f, /* Message Box form */
+.theme-dark .wrapper__57349, /* Announcement follow banner */
+.theme-dark .messagesPopout__28784 /* Pinned Messages */ {
+    background-color: var(--app-primary-color) !important;
+}
+
+.theme-dark .content__01e65 /* Chat / Member background wrapper */ {
+    background-color: var(--app-secondary-color) !important;
+}
+
+.theme-dark .chatContent_f087cb, /* Main message content wrapper */
+.theme-dark .content__7191e, /* Message Date seperator background */
+.theme-dark .channelTextArea_c2094b /* Message Box form wrapper */ {
+    background-color: var(--app-tri-color) !important;
+}
+
+.chatContent_f087cb {
+    border-radius: 0 0 var(--app-border-radius) var(--app-border-radius) !important;
+}
+
+.scroller_e412fe { /* Shifts main message window up */
+    padding-bottom: 0.5rem;
+}
+
+/* ------------ Viewing old messages ------------- */
+.jumpToPresentBar__69174 {
+    margin-left: auto;
+    margin-right: calc(var(--app-border-margin) * 2);
+    right: 0;
+    width: 150px;
+}
+.jumpToPresentBar__69174 > button:first-of-type {
+    display: none;
+}
+
+/* ---------------- Message Form ----------------- */
+.channelTextArea_c2094b { /* Message Box form wrapper */
+    background-color: var(--app-tri-color);
+    margin-bottom: var(--app-border-margin) !important;
+}
+
+.channelTextArea_c2094b .scrollableContainer_ff917f { /* Message Box form */
+    border-radius: var(--app-border-radius);
+}
+
+[aria-label="Send a gift"],
+[aria-label="Open GIF picker"],
+[aria-label="Open sticker picker"] {
+    display: none;
+}
+/* Hides bloat buttons (gift, sticker, gif) */
+/* .button__437ce { achieves the same thing but felt like it wasn't eh uk?
+    display: none;
+} */
+
+.form_d8a4a1 .typing__6fd1d { /* so slow mode isn't quite centered.. and is kind of driving me crazy... but i ain't getting paid to make this so */
+    margin-right: 154px;
+    bottom: 52px;
+}
+
+.form_d8a4a1::after, /* hides gradient from message wrapper */
+.form_d8a4a1::before {
+    display: none;
+}
+
+/* ----------------------------------------------- */
+/*                  Chat Title Bar                 */
+/* ----------------------------------------------- */
+
+.theme-dark .searchBar__5a20a /* Search bar */ {
+    background-color: var(--app-primary-color) !important;
+}
+
+.theme-dark .title_d4ba1a, /* Title bar */
+.theme-dark .search_ac353c /* Search bar wrapper */ {
+    background-color: var(--app-tri-color) !important;
+}
+
+/* Subtitle Buttons */
+[aria-label="Notification Settings"],
+[aria-label="Help"] {
+    display: none;
+}
+
+.children_cde9af::after { /* TOFIX: ONLY APPLIES TO THE DARK THEME AND NOT THE ALT COLORS OR LIGHT THEME?????? WHY HOW WHAT */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0)0%, var(--app-tri-color, 1)100%) !important;
+}
+
+/* --------------- Pinned Messages --------------- */
+.messagesPopout__28784 {
+    background-color: white;
+}
+
+.content__7191e {
+    padding-inline: var(--app-border-margin);
+    border-radius: var(--app-border-radius);
+    color: var(--app-accent-color) !important;
+}
+
+/* ----------------------------------------------- */
+/*              Server Memebers List               */
+/* ----------------------------------------------- */
+
+.theme-dark .members__573eb, /* Members panel background */
+.theme-dark .member_aa4760 /* Per Member background */ {
+    background-color: var(--app-secondary-color) !important;
+}
+
+.theme-dark .member_aa4760:hover {
+    background-color: var(--app-tri-color) !important;
+}
+
+/* ----------------------------------------------- */
+/*                    Settings                     */
+/* ----------------------------------------------- */
+.theme-dark .bd-addon-card,
+.theme-dark .bd-addon-header {
+    background-color: var(--app-primary-color) !important;
+}
+
+.theme-dark .sidebarRegionScroller__8113e {
+    background-color: var(--app-secondary-color) !important;
+}
+
+.theme-dark .contentRegionScroller__9ae20, /* Right settings panel */
+.theme-dark .peopleColumn__0c784, /* Friends list */
+.theme-dark .section__253ec, /* Friends List Activity */
+.theme-dark .messageGroupWrapper__1fce2 /* Pinned Messages */ {
+    background-color: var(--app-tri-color) !important;
+}
+
+/* Background for theme card [by Gibbu] */
+[id="Simple and Clean-card"] {
+    position: relative;
+}
+[id="Simple and Clean-card"]::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    opacity: 0.1;
+    pointer-events: none;
+}
+.theme-dark [id="Simple and Clean-card"]::before {
+    background: url(https://i.imgur.com/c0gDLjC.jpg) center/cover;
+}
