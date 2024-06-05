@@ -2,8 +2,6 @@
 
 The objective of this theme is to achieve as clean of a UI as possible without nipping functionality. This theme is still new so please allow me to work out anything I may have missed and if you find something, please open an issue or else I may not know if something has broken or not yet been themed. Thank you for using my theme :3
 
-> Note that my prior [Modified Rounded Dark](https://github.com/akrossu/ModifiedRoundedDark) theme is more than likely not going see any further updates and development will move to this theme.
-
 ![banner](https://github.com/akrossu/SimpleAndClean/blob/main/resources/theme.png?raw=true)
 
 ## Features
@@ -18,11 +16,6 @@ The objective of this theme is to achieve as clean of a UI as possible without n
 
 ### Linkes to both of my better discord theme links can be found here:
 
-[![SimpleAndClean](https://github-readme-stats.vercel.app/api/pin/?username=akrossu&repo=SimpleAndClean&bg_color=1B1D23&title_color=FFFFFF&text_color=AAAAAA&icon_color=D68881&hide_border=true)](https://github.com/akrossu/SimpleAndClean)
-[![ModifiedRoundedDark](https://github-readme-stats.vercel.app/api/pin/?username=akrossu&repo=modifiedroundeddark&bg_color=1B1D23&title_color=FFFFFF&text_color=AAAAAA&icon_color=D68881&hide_border=true)](https://github.com/akrossu/ModifiedRoundedDark)
+> Note that my prior [Modified Rounded Dark ](https://github.com/akrossu/ModifiedRoundedDark) theme fork is more than likely not going see any further updates and development will move to this theme.
 
-<hr>
-
-honestly this was kinda just to have a matching theme between my spotify and discord blehh
-
-![spotify](https://github.com/akrossu/SimpleAndClean/blob/main/resources/spotify.png?raw=true)
+[![SimpleAndClean](https://github-readme-stats.vercel.app/api/pin/?username=akrossu&repo=SimpleAndClean&bg_color=1B1D23&title_color=FFFFFF&text_color=AAAAAA&icon_color=D68881&hide_border=true)](https://github.com/akrossu/SimpleAndClean) [![ModifiedRoundedDark](https://github-readme-stats.vercel.app/api/pin/?username=akrossu&repo=modifiedroundeddark&bg_color=1B1D23&title_color=FFFFFF&text_color=AAAAAA&icon_color=D68881&hide_border=true)](https://github.com/akrossu/ModifiedRoundedDark)
