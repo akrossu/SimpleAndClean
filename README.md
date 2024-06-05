@@ -14,7 +14,7 @@ The objective of this theme is to achieve as clean of a UI as possible without n
 
 <br>
 
-![subBanner](https://github.com/akrossu/SimpleAndClean/raw/main/resources/theme.png?raw=true)
+![subBanner](https://github.com/akrossu/SimpleAndClean/blob/main/src/resources/theme.png?raw=true)
 
 <div style="border: thin white solid; opacity: 20%"></div>
 
