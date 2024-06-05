@@ -1,24 +1,29 @@
 /**
  * @name Simple and Clean
- * @author Akross
- * @version 0.1
  * @description Removes clutter and unneeded features for a more concise user experience.
- * @source 
+ * @author Akross
+ * @authorId 282593436803268618
+ * @version 0.1
+ * @source https://github.com/akrossu/SimpleAndClean
+ * @website https://akrossu.github.io/
 */
 
+/* ----------------------------------------------- */
+/*            Simple and Clean Theme :3            */
+/* ----------------------------------------------- */
+
+@import url(https://akr0ss.github.io/SimpleAndClean/src/base.css);
+
 :root {
-    --app-border-color: rgb(16, 16, 16);
+    --app-primary-color: rgb(16, 16, 16);
     --app-secondary-color: rgb(23, 23, 23);
     --app-tri-color: rgb(29, 29, 29);
-    --app-accent-color: rgb(110, 92, 153); /* Recommend keeping the same contrast/brightness, just change the color for ease of readability */
-    --app-text-accent-color: rgb(167, 147, 207);
+    --app-accent-color: rgb(60, 81, 72); /* Recommend keeping the same contrast/brightness, just change the color for ease of readability */
 
     --app-border-radius: 0.5rem; /* Generally works between 0 - 2rem or 0px - ~32px */
     --app-border-margin: 0.5rem; /* Generally works between 0.3 - 0.7rem or ~5px - ~11px of spacing */
-
-    /* Sepecific Element Colors */
-    --message-mention-color: var(--app-accent-color);
 }
+
 
 /* App Header */
 .typeWindows_e41dab { /* Fixes the margin and height of draggable header */
@@ -26,287 +31,8 @@
     height: var(--app-border-margin) !important;
 }
 
-.wordmarkWindows_ffbc5e,
+#app-mount .wordmarkWindows_ffbc5e,
 .winButtonClose__6396d,
 .winButtonMinMax_caf9c8 { /* Hides the top bar text and windows functions */
     display: none;
-}
-
-/* App Border */
-.appMount_c99875,
-.typeWindows_e41dab,
-.guilds__2b93a,
-.bg__12180 { /* Main window background color */
-    background-color: var(--app-border-color) !important;
-}
-
-.appAsidePanelWrapper__5e6e2 { /* Main window margin width */
-    margin: 0 var(--app-border-margin) var(--app-border-margin) 0;
-}
-
-.base_c0676e { /* Main window border radius */
-    border-radius: var(--app-border-radius);
-}
-
-/* ---------------------- */
-/* Main Window Components */
-/* ---------------------- */
-
-/* Section colors */
-.searchBar__5a20a,
-.wrapper_e832ee,
-.container_e1958d,
-.searchBarComponent__8f95f,
-.scrollableContainer_ff917f,
-.mainCard__0ec2c,
-.activityPanel_b73e7a,
-.container_debb33,
-.wrapper__57349, /* Announcement follow banner */
-.standardSidebarView__12528, /* Settings left border fix */
-.contentRegion__08eba, /* Settings right border fix */ 
-.inner__999f6, /* Friends List search bar */ 
-.actionButton__2b4bb,
-.itemCard_b64118,
-.content__7191e, /* Message Date Divider */
-.messagesPopout__28784 /* Pinned Messages */ {
-    background-color: var(--app-border-color) !important;
-}
-
-.sidebar_e031be,
-.scroller__89969,
-.members__573eb, /* Server members */
-.container_f79ab4, /* Server members overflow */
-.member_aa4760, /* Individual members */
-.panels__58331,
-.search__07df0,
-.container__68e43,
-.container__7e23c,
-.sidebarRegionScroller__8113e,
-/* Friends List Activity */
-.nowPlayingColumn_b025fe,
-.container__3673d,
-.header__21b33, /* Pinned Messages Header */
-.footer__6b9ef, /* Pinned Messages Footer */
-.embedWrapper__47b23 /* Message Embeds */ {
-    background-color: var(--app-secondary-color) !important;
-}
-
-.chatContent_f087cb,
-.container_f41675,
-.title_d4ba1a,
-.circleIconButton__05cf2,
-.expandedFolderBackground_b1385f,
-.searchBar__621ec,
-.reaction__4a43f,
-.container__26baa,
-.container_b92032,
-.button_b82d53,
-.contentRegionScroller__9ae20, /* Right settings panel */
-.peopleColumn__0c784, /* Friends list */
-.section__253ec, /* Friends List Activity */
-.messageGroupWrapper__1fce2 /* Pinned Messages */ {
-    background-color: var(--app-tri-color) !important;
-}
-
-.followButton_eb1ca8,
-.interactiveSelected__689f0, /* Direct Message Highlight */
-.unreadPill__1b4fa, /* Unread Message NEW text background */
-.newMessagesBar__8b272,
-.guildSeparator__75928,
-::-webkit-scrollbar-thumb {
-    background-color: var(--app-accent-color) !important;
-}
-
-/* Transparent props */
-::-webkit-scrollbar-track,
-.inlineMediaEmbed_b25e49,
-.imageContent__0fe2a /* Transparent image background fix */ {
-    background-color: rgba(0, 0, 0, 0) !important;
-}
-
-/* Element Gradient Fix */
-.children_cde9af::after,
-.form_d8a4a1::after,
-.form_d8a4a1::before {
-    display: none;
-}
-
-/* Subtitle Buttons */
-[aria-label="Notification Settings"],
-[aria-label="Help"] {
-    display: none;
-}
-
-/* Consistant Scrollbar width */
-.scroller_e412fe::-webkit-scrollbar, /* Main chat window SB */
-.peopleList_d2f527::-webkit-scrollbar, /* Friends list SB */
-.mainPageScroller_a3deff::-webkit-scrollbar /* Nitro Page SB */ {
-    width: 12px !important;
-}
-
-/* Channel/User Area */
-.sidebar_e031be,
-.bannerImg_fe5c1b {
-    width: 256px !important;
-}
-
-.animatedContainer__0e828 {
-    border-radius: 0 0 var(--app-border-radius) var(--app-border-radius);
-}
-
-.container_e1958d,
-.activityPanel_b73e7a { /* Voice Area */
-    margin-bottom: var(--app-border-margin);
-}
-
-.container_e1958d,
-.activityPanel_b73e7a { /* Voice/Activity Area border color Fix */
-    border-color: rgba(0, 0, 0, 0);
-}
-
-.container_debb33 { /* User Area Height Fix to match Message Form height */
-    height: 44px;
-}
-
-.container_debb33,
-.container_e1958d,
-.wrapper_e832ee,
-.body_dc19cb,
-.activityPanel_b73e7a { /* User/Voice Area border */
-    border-radius: var(--app-border-radius) !important;
-}
-
-.panels__58331 { /* Area FIX */
-    margin: 0;
-    padding: var(--app-border-margin);
-	/* background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 60%, rgba(255, 255, 255, 0) 100%) !important; */
-}
-
-.buttonActive_ae686f { /* Voice Area Action Buttons FIX */
-    background-color: var(--app-accent-color) !important;
-}
-
-/* Message Form */
-.channelTextArea_c2094b { 
-    background-color: var(--app-tri-color);
-    margin-bottom: var(--app-border-margin) !important;
-}
-
-.scrollableContainer_ff917f { /* Allows you to customize message box bevel */
-    border-radius: var(--app-border-radius);
-}
-
-.button__437ce { /* Hides bloat buttons (gift, sticker, gif) */
-    display: none;
-}
-
-.typing__6fd1d { /* Members typing (perhaps a slight overside when moving chat box down.. ohwell */
-    margin-inline: 1rem;
-    bottom: 0;
-}
-.typingDots__0448d {
-    padding-left: 1rem;
-}
-.cooldownWrapper__193b2 {
-    padding-right: 1rem;
-}
-
-/* Pinned Messages */
-.messagesPopout__28784 {
-    background-color: white;
-}
-
-.content__7191e {
-    padding-inline: var(--app-border-margin);
-    border-radius: var(--app-border-radius);
-    color: var(--app-accent-color) !important;
-}
-/* Message divider date fix */
-.divider__01aed {
-    border-top: thin var(--app-border-color) solid;
-}
-.isUnread_de09f5 { /* Message new fix */
-    border-top: thin var(--app-accent-color) solid;
-}
-
-/* Message Mention */
-.mentioned_fa6fd2::before {
-    background-color: var(--message-mention-color) !important;
-}
-
-.unreadPillCapStroke__89d64 { /* New Message Text divider */
-    color: var(--app-accent-color) !important;
-    fill: var(--app-accent-color) !important;
-}
-
-/* ------------ */
-/* Friends List */
-/* ------------ */
-
-.inner__999f6 {
-    border-radius: var(--app-border-radius);
-}
-
-/* DM section */
-.channel__0aef5 {
-    border-radius: var(--app-border-radius);
-}
-
-.content__690c5 {
-    padding-left: var(--app-border-margin);
-}
-
-.searchBar__621ec,
-.scroller__89969,
-.channel__0aef5 {
-    padding: 0;
-    margin: 0;
-}
-
-.channel__0aef5,
-.searchBarComponent__8f95f {
-    border-radius: var(--app-border-radius);
-}
-
-.searchBar__621ec {
-    /* background-color: white !important; */
-    padding-inline: var(--app-border-margin);
-}
-
-/* ------ */
-/* Forums */
-/* ------ */
-.container__68e43 {
-    margin: var(--app-border-margin);
-    margin-left: calc(var(--app-border-margin) * 2);
-    border-radius: var(--app-border-radius);
-    border-color: rgba(0, 0, 0, 0);
-}
-
-.buttonInner__865de {
-    color: var(--app-text-accent-color);
-}
-.buttonInner__865de:hover {
-    color: white;
-}
-
-/* -------- */
-/* Settings */
-/* -------- */
-.sidebarRegion__36437 /* Add left border to settings page */  {
-    margin-left: var(--app-border-margin);
-}
-
-.sidebarRegionScroller__8113e { /* adds left two bevels */
-    border-radius: var(--app-border-radius) 0 0 var(--app-border-radius);
-}
-.contentRegionScroller__9ae20 { /* adds right two bevels */
-    border-radius: 0  var(--app-border-margin) var(--app-border-margin) 0;
-}
-
-/* --------- */
-/* User Card */
-/* --------- */
-.userPopoutInner_ac0960  {
-    padding: 0;
 }
