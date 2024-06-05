@@ -3,7 +3,7 @@
  * @description Removes clutter and unneeded features for a more concise user experience.
  * @author Akross
  * @authorId 282593436803268618
- * @version 0.1
+ * @version 1.0
  * @source https://github.com/akrossu/SimpleAndClean
  * @website https://akrossu.github.io/
 */
@@ -30,6 +30,4 @@
     --settingswidth: 960;  /* default:	960px (width of the settings modal, px)*/
 	--settingsheight: 80; /* default:	80vh  (height of the settings modal, vh)*/
 	--settingsbackground: transparent; /* default: transparent (lowest BG Color of changed Windows, change it in case another Theme turns them transparent) */
-
-    --temp: var(--bg-overlay-2, var(--background-secondary-alt));
 }
