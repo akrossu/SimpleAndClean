@@ -2,7 +2,7 @@
 
 The objective of this theme is to achieve as clean of a UI as possible without nipping functionality. This theme is still new so please open an issue or else I may not know if something has broken or not yet been themed. Thank you for using my theme :3
 
-![Banner](https://raw.githubusercontent.com/akrossu/SimpleAndClean/theme-compat/src/resources/theme1.png?raw=true)
+![Banner](https://github.com/akrossu/SimpleAndClean/blob/main/src/resources/theme1.png?raw=true)
 
 ## Features
 - No branding or toolbar.
