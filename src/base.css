@@ -108,7 +108,8 @@
     background-color: var(--app-secondary-color) !important;
 }
 
-.theme-dark .container_f41675, /* Sidebar Title (ex. Server name background)  */
+.theme-dark .container_f41675, /* Sidebar Title (ex. Server name background) */
+.theme-dark .button_b82d53, /* Activity Area buttons */
 .theme-dark .searchBar__621ec /* DM searchbar titlebar */ {
     background-color: var(--app-tri-color) !important;
 }
