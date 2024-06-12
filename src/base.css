@@ -58,7 +58,15 @@
 /*                   Server List                   */
 /* ----------------------------------------------- */
 
+.theme-dark .folder__17546,
+.theme-dark .expandedFolderBackground_b1385f /* DM searchbar titlebar */ {
+    background: var(--bg-overlay-3, var(--background-secondary-alt)) !important;
+}
 
+.folder__17546, /* Expanded folder */
+.theme-dark .expandedFolderBackground_b1385f /* Expanded folder dropdown */ {
+    background-color: var(--app-tri-color) !important;
+}
 
 /* ----------------------------------------------- */
 /*               Sidebar Components                */
