@@ -223,8 +223,11 @@
 } */
 
 .form_d8a4a1 .typing__6fd1d { /* so slow mode isn't quite centered.. and is kind of driving me crazy... but i ain't getting paid to make this so */
-    margin-right: 154px;
-    bottom: 52px;
+    top: -1.5rem;
+    left: 0;
+    right: 0;
+    padding-left: calc(var(--app-border-margin) * 3);
+    margin-right: 171px;
 }
 
 .form_d8a4a1::after, /* hides gradient from message wrapper */
