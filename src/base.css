@@ -196,6 +196,10 @@
     background-color: var(--app-tri-color) !important;
 }
 
+.newMessagesBar__8b272 {
+    background-color: var(--app-accent-color) !important;
+}
+
 .chatContent_f087cb {
     border-radius: 0 0 var(--app-border-radius) var(--app-border-radius) !important;
 }
