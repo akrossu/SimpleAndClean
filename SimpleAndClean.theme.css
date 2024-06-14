@@ -29,6 +29,7 @@
 
     /* Additional Colors */
     --new-message-color: var(--app-accent-color); /* Default: rgb(242, 63, 66) */
+    --new-message-banner: var(--bg-overlay-4); /* This enables color sync when using a discord nitro theme. You can set this to a static color. */
 
     /* Custom Discord Icon */
     /* --discord-icon: url("https://i.imgur.com/Ji3J7d5.png"); */

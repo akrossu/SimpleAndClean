@@ -176,6 +176,11 @@
 /* ----------------------------------------------- */
 /*                 Chat Components                 */
 /* ----------------------------------------------- */
+.theme-dark .newMessagesBar__8b272, /* New Message bar */
+.theme-light .newMessagesBar__8b272 { 
+    background: var(--new-message-banner, var(--background-secondary-alt));
+}
+
 .theme-dark .scrollableContainer_ff917f /* Message Box form */ {
     background: var(--bg-overlay-1, var(--background-secondary-alt)) !important;
 }
