@@ -58,7 +58,19 @@
 /*                   Server List                   */
 /* ----------------------------------------------- */
 
+.theme-dark .folder__17546,
+.theme-dark .expandedFolderBackground_b1385f /* DM searchbar titlebar */ {
+    background: var(--bg-overlay-3, var(--background-secondary-alt)) !important;
+}
 
+.folder__17546, /* Expanded folder */
+.theme-dark .expandedFolderBackground_b1385f /* Expanded folder dropdown */ {
+    background-color: var(--app-tri-color) !important;
+}
+
+.childWrapper__760c6 img { /* Discord Icon */
+    content: var(--discord-icon);
+}
 
 /* ----------------------------------------------- */
 /*               Sidebar Components                */
@@ -100,7 +112,8 @@
     background-color: var(--app-secondary-color) !important;
 }
 
-.theme-dark .container_f41675, /* Sidebar Title (ex. Server name background)  */
+.theme-dark .container_f41675, /* Sidebar Title (ex. Server name background) */
+.theme-dark .button_b82d53, /* Activity Area buttons */
 .theme-dark .searchBar__621ec /* DM searchbar titlebar */ {
     background-color: var(--app-tri-color) !important;
 }
@@ -183,6 +196,24 @@
     background-color: var(--app-tri-color) !important;
 }
 
+.newMessagesBar__8b272 { /* New Message bar */
+    background-color: var(--app-accent-color) !important;
+}
+
+.isUnread_de09f5 .content__7191e { /* New message date */
+    color: var(--new-message-color) !important;
+}
+.isUnread_de09f5 { /* Message divider */
+    border-color: var(--new-message-color) !important;
+}
+.unreadPillCapStroke__89d64, /* New pill triangle cap thing */
+.unreadPill__1b4fa /* Body of new notification pill */ {
+    fill: var(--new-message-color) !important;
+    stroke: var(--new-message-color) !important;
+    background-color: var(--new-message-color) !important;
+}
+
+
 .chatContent_f087cb {
     border-radius: 0 0 var(--app-border-radius) var(--app-border-radius) !important;
 }
@@ -263,17 +294,12 @@
     background-color: white;
 }
 
-.content__7191e {
-    padding-inline: var(--app-border-margin);
-    border-radius: var(--app-border-radius);
-    color: var(--app-accent-color) !important;
-}
-
 /* ----------------------------------------------- */
 /*              Server Memebers List               */
 /* ----------------------------------------------- */
 
 .theme-dark .members__573eb, /* Members panel background */
+.theme-dark .container_f79ab4, /* Memeber overflow panel */
 .theme-dark .member_aa4760 /* Per Member background */ {
     background-color: var(--app-secondary-color) !important;
 }
