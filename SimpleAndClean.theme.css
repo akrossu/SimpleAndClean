@@ -27,6 +27,10 @@
     --app-border-radius: 0.5rem; /* Generally works between 0 - 2rem or 0px - ~32px */
     --app-border-margin: 0.5rem; /* Generally works between 0.3 - 0.7rem or ~5px - ~11px of spacing */
 
+    /* Custom Discord Icon */
+    /* --discord-icon: url("https://i.imgur.com/Ji3J7d5.png"); */
+
+    /* Options for settings modal */
     --settingswidth: 960;  /* default:	960px (width of the settings modal, px)*/
 	--settingsheight: 80; /* default:	80vh  (height of the settings modal, vh)*/
 	--settingsbackground: transparent; /* default: transparent (lowest BG Color of changed Windows, change it in case another Theme turns them transparent) */
