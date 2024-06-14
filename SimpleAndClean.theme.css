@@ -22,10 +22,13 @@
     --app-primary-color: rgb(16, 16, 16);   /* Default: rgb(30, 31, 34) */
     --app-secondary-color: rgb(23, 23, 23); /* Default: rgb(30, 31, 34) */
     --app-tri-color: rgb(29, 29, 29);       /* Default: rgb(49, 51, 56) */
-    --app-accent-color: rgb(60, 81, 72); /* Recommend keeping the same contrast/brightness, just change the color for ease of readability */
+    --app-accent-color: rgb(107, 134, 115); /* Recommend keeping the same contrast/brightness, just change the color for ease of readability */
 
     --app-border-radius: 0.5rem; /* Generally works between 0 - 2rem or 0px - ~32px */
     --app-border-margin: 0.5rem; /* Generally works between 0.3 - 0.7rem or ~5px - ~11px of spacing */
+
+    /* Additional Colors */
+    --new-message-color: var(--app-accent-color); /* Default: rgb(242, 63, 66) */
 
     /* Custom Discord Icon */
     /* --discord-icon: url("https://i.imgur.com/Ji3J7d5.png"); */
