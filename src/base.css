@@ -1,52 +1,51 @@
-
 /* ----------------------------------------------- */
 /*                   App Header                    */
 /* ----------------------------------------------- */
 
-#app-mount .typeWindows_e41dab { /* Fixes the margin and height of draggable header */
+#app-mount .typeWindows_a934d8 { /* Fixes the margin and height of draggable header */
     margin: 0;
     padding: 0;
     height: var(--app-border-margin) !important;
 }
 
-#app-mount .wordmarkWindows_ffbc5e,
-#app-mount .winButtonClose__6396d,
-#app-mount .winButtonMinMax_caf9c8 { /* Hides the top bar text and windows functions */
+#app-mount .wordmarkWindows_a934d8,
+#app-mount .winButtonMinMax_a934d8,
+#app-mount .winButtonClose_a934d8 { /* Hides the top bar text and windows functions */
     display: none;
 }
 
-.theme-dark .appMount_c99875,
-.theme-dark .typeWindows_e41dab,
-.theme-dark .guilds__2b93a,
-.theme-dark .bg__12180 { /* Main window background color */
+.theme-dark .appMount_ea7e65,
+.theme-dark .typeWindows_a934d8,
+.theme-dark .guilds_a4d4d9,
+.theme-dark .bg_d4b6c5 { /* Main window background color */
     background-color: var(--app-primary-color) !important;
 }
 
-.appAsidePanelWrapper__5e6e2 { /* Main window margin width */
+.appAsidePanelWrapper_bd26cc { /* Main window margin width */
     margin: 0 var(--app-border-margin) var(--app-border-margin) 0;
 }
 
-.theme-dark .content__76dcf {
+.theme-dark .content_a4d4d9 {
     background: var(--bg-overlay-3, var(--background-secondary-alt)) !important;
 }
 
-.base_c0676e { /* Main window border radius */
+.base_a4d4d9 { /* Main window border radius */
     border-radius: var(--app-border-radius);
 }
 
 /* ------------------ Scrollbars ------------------*/
 
 /* Consistant Scrollbar width (for some reason istg every scrollbar has a different default width?) */
-.scroller_e412fe::-webkit-scrollbar, /* Main chat window SB */
-.peopleList_d2f527::-webkit-scrollbar, /* Friends list SB */
-.mainPageScroller_a3deff::-webkit-scrollbar /* Nitro Page SB */ {
+.scroller_e2e187::-webkit-scrollbar, /* Main chat window SB */
+.peopleList_e0840f::-webkit-scrollbar, /* Friends list SB */
+.mainPageScroller_ed2e7b::-webkit-scrollbar /* Nitro Page SB */ {
     width: 12px !important;
 }
 
 /* Transparent props */
 ::-webkit-scrollbar-track,
-.inlineMediaEmbed_b25e49,
-.imageContent__0fe2a /* Transparent image background fix */ {
+.inlineMediaEmbed_ad0b71, /* GIF backgrounds */
+.imageContent_cf58b5 /* Transparent image background fix */ {
     background-color: rgba(0, 0, 0, 0) !important;
 }
 
