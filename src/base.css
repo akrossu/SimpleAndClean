@@ -76,20 +76,20 @@
 /* ----------------------------------------------- */
 
 /* Light theme combatability */
-.theme-light .panels__58331, /* User / Voice Area */
-.theme-light .scroller__89969 { /* Private Messages */
+.theme-light .panels_a4d4d9, /* User / Voice Area */
+.theme-light .scroller_c47fa9 { /* Private Messages */
     background: var(--bg-overlay-3, var(--background-secondary-alt)) !important;
 }
-.theme-light .searchBar__621ec /* DM searchbar titlebar */ {
+.theme-light .searchBar_f0963d /* DM searchbar titlebar */ {
     background: var(--bg-overlay-1, var(--background-primary)) !important;
 }
 
 /* Dark theme combatability */
-.theme-dark .panels__58331, /* User / Voice Area */
-.theme-dark .scroller__89969 { /* Private Messages */
+.theme-dark .panels_a4d4d9, /* User / Voice Area */
+.theme-dark .scroller_c47fa9 { /* Private Messages */
     background: var(--bg-overlay-3, var(--background-secondary-alt)) !important;
 }
-.theme-dark .searchBar__621ec /* DM searchbar titlebar */ {
+.theme-dark .searchBar_f0963d /* DM searchbar titlebar */ {
     background: var(--bg-overlay-2, var(--background-secondary-alt)) !important;
 }
 /* gradient above user section */
@@ -97,24 +97,31 @@
     background-color: linear-gradient(180deg, rgba(0, 0, 0, 0)0%, rgba(var(--bg-overlay-2, var(--background-secondary-alt)), 1)100%) !important;
 } */
 
-.theme-dark .container_e1958d, /* Voice Area */
-.theme-dark .searchBarComponent__8f95f, /* Searchbar */
-.theme-dark .activityPanel_b73e7a, /* Activity Area */
-.theme-dark .container_debb33, /* User Area */
-.theme-dark .inner__999f6 /* Friends List search bar */ {
+.theme-dark .container_adcaac, /* Voice Area */
+.theme-dark .searchBarComponent_f0963d, /* DM Searchbar */
+.theme-dark .activityPanel_a4d4d9, /* Activity Area */
+.theme-dark .container_b2ca13, /* User Area */
+.theme-dark .inner_c18ec9 /* Friends List search bar */ {
     background-color: var(--app-primary-color) !important;
 }
 
-.theme-dark .container__7e23c, /* Server Channels */
-.theme-dark .scroller__89969, /* user dms */
-.theme-dark .panels__58331 { /* User / Voice Area */
+.theme-dark .container_ee69e0, /* Server Channels */
+.theme-dark .scroller_c47fa9, /* user dms */
+.theme-dark [aria-label="User area"] { /* User / Voice Area */
     background-color: var(--app-secondary-color) !important;
 }
 
-.theme-dark .container_f41675, /* Sidebar Title (ex. Server name background) */
-.theme-dark .button_b82d53, /* Activity Area buttons */
-.theme-dark .searchBar__621ec /* DM searchbar titlebar */ {
+.theme-dark .container_fd6364, /* Sidebar Title (ex. Server name background) */
+.theme-dark .searchBar_f0963d /* DM searchbar titlebar */ {
     background-color: var(--app-tri-color) !important;
+}
+
+/* .theme-dark .button_adcaac, /* Activity Area buttons (bloat) */
+.theme-dark [aria-label="Turn On Camera"],
+.theme-dark [aria-label="Share Your Screen"],
+.theme-dark [aria-label="Start An Activity"],
+.theme-dark [aria-label="Open Soundboard"] {
+    background-color: var(--app-tri-color);
 }
 
 /* --------------- Voice/User Area --------------- */
@@ -132,43 +139,43 @@
     background: linear-gradient(180deg, rgba(0, 0, 0, 0)0%, var(--app-secondary-color, 1)100%) !important;
 } */
 
-.sidebar_e031be, /* Sidebar */
-.bannerImg_fe5c1b { /* Server banner image container */
+.sidebar_a4d4d9, /* Sidebar */
+.bannerImg_fd6364 { /* Server banner image container */
     width: 256px !important;
 }
 
-.animatedContainer__0e828 { /* Server banner image */
+.animatedContainer_fd6364 { /* Server banner image */
     border-radius: 0 0 var(--app-border-radius) var(--app-border-radius);
 }
 
-.container_e1958d, /* Voice Area */
-.activityPanel_b73e7a { /* Activity Area */
+.container_adcaac, /* Voice Area */
+.activityPanel_a4d4d9 { /* Activity Area */
     margin-bottom: var(--app-border-margin);
 }
 
-.container_e1958d, /* Voice Area */
-.activityPanel_b73e7a { /* Voice/Activity Area border color Fix */
+.container_adcaac, /* Voice Area */
+.activityPanel_a4d4d9 { /* Voice/Activity Area border color Fix */
     border-color: rgba(0, 0, 0, 0);
 }
 
-.container_debb33 { /* User Area; Height Fix to match Message Form height */
+.container_b2ca13 { /* User Area; Height Fix to match Message Form height */
     height: 44px;
 }
 
-.container_debb33, /* User Area */
-.container_e1958d, /* Voice Area */
-.wrapper_e832ee, /* Voice Area Wrapper */
-.body_dc19cb, /* Activity Area Body */
-.activityPanel_b73e7a { /* User/Voice Area border */
+.container_b2ca13, /* User Area */
+.container_adcaac, /* Voice Area */
+.wrapper_adcaac, /* Voice Area Wrapper */
+.body_bf1a22, /* Activity Area Body */
+.activityPanel_a4d4d9 { /* User/Voice Area border */
     border-radius: var(--app-border-radius) !important;
 }
 
-.panels__58331 { /* Area wrapper FIX */
+[aria-label="User area"] { /* Area wrapper FIX */
     margin: 0;
     padding: var(--app-border-margin);
 }
 
-.buttonActive_ae686f { /* Voice Area Action Buttons FIX */
+.buttonActive_adcaac { /* Voice Area Action Buttons FIX */
     background-color: var(--app-accent-color) !important;
 }
 
