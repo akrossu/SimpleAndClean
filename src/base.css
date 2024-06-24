@@ -57,17 +57,17 @@
 /*                   Server List                   */
 /* ----------------------------------------------- */
 
-.theme-dark .folder__17546,
-.theme-dark .expandedFolderBackground_b1385f /* DM searchbar titlebar */ {
+.theme-dark .folder_bc7085, /* Server folder */
+.theme-dark .expandedFolderBackground_bc7085 /* Expanded Server Folder */ {
     background: var(--bg-overlay-3, var(--background-secondary-alt)) !important;
 }
 
-.folder__17546, /* Expanded folder */
-.theme-dark .expandedFolderBackground_b1385f /* Expanded folder dropdown */ {
+.folder_bc7085, /* Expanded folder */
+.theme-dark .expandedFolderBackground_bc7085 /* Expanded Server Folder */ {
     background-color: var(--app-tri-color) !important;
 }
 
-.childWrapper__760c6 img { /* Discord Icon */
+.childWrapper_f90abb img { /* Discord Icon */
     content: var(--discord-icon);
 }
 
