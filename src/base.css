@@ -308,13 +308,13 @@
 /*              Server Memebers List               */
 /* ----------------------------------------------- */
 
-.theme-dark .members__573eb, /* Members panel background */
-.theme-dark .container_f79ab4, /* Memeber overflow panel */
-.theme-dark .member_aa4760 /* Per Member background */ {
+.theme-dark .members_cbd271, /* Members panel background */
+.theme-dark .container_cbd271, /* Memeber overflow panel */
+.theme-dark .member_a31c43 /* Per Member background */ {
     background-color: var(--app-secondary-color) !important;
 }
 
-.theme-dark .member_aa4760:hover {
+.theme-dark .member_a31c43:hover {
     background-color: var(--app-tri-color) !important;
 }
 
