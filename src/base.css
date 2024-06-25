@@ -326,14 +326,14 @@
     background-color: var(--app-primary-color) !important;
 }
 
-.theme-dark .sidebarRegionScroller__8113e {
+.theme-dark .sidebarRegionScroller_c25c6d {
     background-color: var(--app-secondary-color) !important;
 }
 
-.theme-dark .contentRegionScroller__9ae20, /* Right settings panel */
-.theme-dark .peopleColumn__0c784, /* Friends list */
-.theme-dark .section__253ec, /* Friends List Activity */
-.theme-dark .messageGroupWrapper__1fce2 /* Pinned Messages */ {
+.theme-dark .contentRegionScroller_c25c6d, /* Right settings panel */
+.theme-dark .peopleColumn_c2739c, /* Friends list */
+.theme-dark .section_cd82a7, /* Friends List Activity */
+.theme-dark .messageGroupWrapper_ac90a2 /* Pinned Messages */ {
     background-color: var(--app-tri-color) !important;
 }
 
