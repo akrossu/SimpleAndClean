@@ -280,12 +280,12 @@
 /*                  Chat Title Bar                 */
 /* ----------------------------------------------- */
 
-.theme-dark .searchBar__5a20a /* Search bar */ {
+.theme-dark .searchBar_a46bef /* Search bar */ {
     background-color: var(--app-primary-color) !important;
 }
 
-.theme-dark .title_d4ba1a, /* Title bar */
-.theme-dark .search_ac353c /* Search bar wrapper */ {
+.theme-dark .title_a7d72e, /* Title bar */
+.theme-dark .search_a46bef /* Search bar wrapper */ {
     background-color: var(--app-tri-color) !important;
 }
 
@@ -295,12 +295,12 @@
     display: none;
 }
 
-.children_cde9af::after { /* TOFIX: ONLY APPLIES TO THE DARK THEME AND NOT THE ALT COLORS OR LIGHT THEME?????? WHY HOW WHAT */
+.children_e44302::after { /* TOFIX: ONLY APPLIES TO THE DARK THEME AND NOT THE ALT COLORS OR LIGHT THEME?????? WHY HOW WHAT */
     background: linear-gradient(to right, rgba(0, 0, 0, 0)0%, var(--app-tri-color, 1)100%) !important;
 }
 
 /* --------------- Pinned Messages --------------- */
-.messagesPopout__28784 {
+.messagesPopout_ac90a2 {
     background-color: white;
 }
 
