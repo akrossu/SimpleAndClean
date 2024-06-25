@@ -182,75 +182,74 @@
 /* ----------------------------------------------- */
 /*                 Chat Components                 */
 /* ----------------------------------------------- */
-.theme-dark .newMessagesBar__8b272, /* New Message bar */
-.theme-light .newMessagesBar__8b272 { 
+.theme-dark .newMessagesBar_cf58b5, /* New Message bar */
+.theme-light .newMessagesBar_cf58b5 { 
     background: var(--new-message-banner, var(--background-secondary-alt));
 }
 
-.theme-dark .scrollableContainer_ff917f /* Message Box form */ {
+.theme-dark .scrollableContainer_d0696b /* Message Box form */ {
     background: var(--bg-overlay-1, var(--background-secondary-alt)) !important;
 }
 
-.theme-dark .scrollableContainer_ff917f, /* Message Box form */
-.theme-dark .wrapper__57349, /* Announcement follow banner */
-.theme-dark .messagesPopout__28784 /* Pinned Messages */ {
+.theme-dark .scrollableContainer_d0696b, /* Message Box form */
+.theme-dark .wrapper_faf5ab, /* Announcement follow banner */
+.theme-dark .messagesPopout_ac90a2 /* Pinned Messages */ {
     background-color: var(--app-primary-color) !important;
 }
 
-.theme-dark .content__01e65 /* Chat / Member background wrapper */ {
+.theme-dark .content_a7d72e /* Chat / Member background wrapper */ {
     background-color: var(--app-secondary-color) !important;
 }
 
-.theme-dark .chatContent_f087cb, /* Main message content wrapper */
-.theme-dark .content__7191e, /* Message Date seperator background */
-.theme-dark .channelTextArea_c2094b /* Message Box form wrapper */ {
+.theme-dark .chatContent_a7d72e, /* Main message content wrapper */
+.theme-dark .content_fc5f50, /* Message Date seperator background */
+.theme-dark .channelTextArea_a7d72e /* Message Box form wrapper */ {
     background-color: var(--app-tri-color) !important;
 }
 
-.newMessagesBar__8b272 { /* New Message bar */
+.newMessagesBar_cf58b5 { /* New Message bar */
     background-color: var(--app-accent-color) !important;
 }
 
-.isUnread_de09f5 .content__7191e { /* New message date */
+.isUnread_fc5f50 .content_fc5f50 { /* New message date */
     color: var(--new-message-color) !important;
 }
-.isUnread_de09f5 { /* Message divider */
+.isUnread_fc5f50 { /* Message divider */
     border-color: var(--new-message-color) !important;
 }
-.unreadPillCapStroke__89d64, /* New pill triangle cap thing */
-.unreadPill__1b4fa /* Body of new notification pill */ {
+.unreadPillCapStroke_fc5f50, /* New pill triangle cap thing */
+.unreadPill_fc5f50 /* Body of new notification pill */ {
     fill: var(--new-message-color) !important;
     stroke: var(--new-message-color) !important;
     background-color: var(--new-message-color) !important;
 }
 
-
-.chatContent_f087cb {
+.chatContent_a7d72e {
     border-radius: 0 0 var(--app-border-radius) var(--app-border-radius) !important;
 }
 
-.scroller_e412fe { /* Shifts main message window up */
+.scroller_e2e187 { /* Shifts main message window up */
     padding-bottom: 0.5rem;
 }
 
 /* ------------ Viewing old messages ------------- */
-.jumpToPresentBar__69174 {
+.jumpToPresentBar_cf58b5 {
     margin-left: auto;
     margin-right: calc(var(--app-border-margin) * 2);
     right: 0;
     width: 150px;
 }
-.jumpToPresentBar__69174 > button:first-of-type {
+.jumpToPresentBar_cf58b5 > button:first-of-type {
     display: none;
 }
 
 /* ---------------- Message Form ----------------- */
-.channelTextArea_c2094b { /* Message Box form wrapper */
+.channelTextArea_a7d72e { /* Message Box form wrapper */
     background-color: var(--app-tri-color);
     margin-bottom: var(--app-border-margin) !important;
 }
 
-.channelTextArea_c2094b .scrollableContainer_ff917f { /* Message Box form */
+.channelTextArea_a7d72e .scrollableContainer_d0696b { /* Message Box form */
     border-radius: var(--app-border-radius);
 }
 
@@ -260,11 +259,11 @@
     display: none;
 }
 /* Hides bloat buttons (gift, sticker, gif) */
-/* .button__437ce { achieves the same thing but felt like it wasn't eh uk?
+/* .button_cecf00 { achieves the same thing but felt like it wasn't eh uk?
     display: none;
 } */
 
-.form_d8a4a1 .typing__6fd1d { /* so slow mode isn't quite centered.. and is kind of driving me crazy... but i ain't getting paid to make this so */
+.form_a7d72e .typing_d7ebeb { /* so slow mode isn't quite centered.. and is kind of driving me crazy... but i ain't getting paid to make this so */
     top: -1.5rem;
     left: 0;
     right: 0;
@@ -272,8 +271,8 @@
     margin-right: 171px;
 }
 
-.form_d8a4a1::after, /* hides gradient from message wrapper */
-.form_d8a4a1::before {
+.form_a7d72e::after, /* hides gradient from message wrapper */
+.form_a7d72e::before {
     display: none;
 }
 
