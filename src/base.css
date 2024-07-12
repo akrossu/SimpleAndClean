@@ -21,15 +21,25 @@
     display: none;
 }
 
+.theme-dark .appAsidePanelWrapper_bd26cc { /* Main window padding width */
+    background: var(--bg-overlay-4, var(--background-secondary-alt)) !important;
+}
+
+.theme-light .appAsidePanelWrapper_bd26cc { /* Main window padding width */
+    background: var(--bg-overlay-5, var(--background-secondary-alt)) !important;
+}
+
 .theme-dark .appMount_ea7e65,
 .theme-dark .typeWindows_a934d8,
 .theme-dark .guilds_a4d4d9,
+.theme-dark .appAsidePanelWrapper_bd26cc /* Main window padding width */
 .theme-dark .bg_d4b6c5 { /* Main window background color */
     background-color: var(--app-primary-color) !important;
 }
 
-.appAsidePanelWrapper_bd26cc { /* Main window margin width */
-    margin: 0 var(--app-border-margin) var(--app-border-margin) 0;
+.appAsidePanelWrapper_bd26cc { /* Main window padding width */
+    margin: 0;
+    padding: 0 var(--app-border-margin) var(--app-border-margin) 0 !important;
 }
 
 .theme-dark .content_a4d4d9 {
@@ -326,6 +336,45 @@
     background-color: var(--app-tri-color) !important;
 }
 
+
+/* ----------------------------------------------- */
+/*                  Friends List                   */
+/* ----------------------------------------------- */
+
+/* Theme compatibility */
+.theme-dark .itemCard_f02fcf, /* Activity top level wrapper */
+.theme-dark .separator_cd82a7, /* Inner Card seperators */
+.theme-dark .peopleColumn_c2739c { /* Friends List */
+    background: var(--bg-overlay-2, var(--background-secondary-alt)) !important;
+}
+
+.theme-dark .searchBar_e0840f .inner_c18ec9,
+.theme-dark .nowPlayingColumn_c2739c .scroller_bf550a, /* Active Now Background */
+.theme-dark .itemCard_f02fcf .body_cd82a7, /* Friends List Activity Wrapper */
+.theme-dark .body_cd82a7 .section_cd82a7, /* Activity Card Sections */
+.theme-dark .nowPlayingColumn_c2739c .container_bf550a { /* Friends List Activity */
+    background: var(--bg-overlay-3, var(--background-secondary-alt)) !important;
+}
+
+/* Colors */
+.theme-dark .peopleColumn_c2739c, /* Friends List */
+.theme-dark .container_e44302, /* Friends List Title Bar */
+.theme-dark .itemCard_f02fcf, /* Friends List Activity Wrapper */
+.theme-dark .body_cd82a7 .separator_cd82a7 { /* Inner Card seperators */
+    background-color: var(--app-tri-color) !important;
+}
+
+.theme-dark .nowPlayingColumn_c2739c .scroller_bf550a, /* Active Now Background */
+.theme-dark .itemCard_f02fcf .body_cd82a7, /* Friends List Activity Wrapper */
+.theme-dark .body_cd82a7 .container_bf550a, /* Friends List Activity */
+.theme-dark .body_cd82a7 .section_cd82a7 { /* Activity Card Sections */
+    background-color: var(--app-secondary-color) !important;
+}
+
+.theme-dark .searchBar_e0840f .inner_c18ec9 {
+    background-color: var(--app-primary-color) !important;
+}
+
 /* ----------------------------------------------- */
 /*                    Settings                     */
 /* ----------------------------------------------- */
@@ -339,8 +388,6 @@
 }
 
 .theme-dark .contentRegionScroller_c25c6d, /* Right settings panel */
-.theme-dark .peopleColumn_c2739c, /* Friends list */
-.theme-dark .section_cd82a7, /* Friends List Activity */
 .theme-dark .messageGroupWrapper_ac90a2 /* Pinned Messages */ {
     background-color: var(--app-tri-color) !important;
 }
