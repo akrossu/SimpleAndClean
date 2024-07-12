@@ -32,7 +32,7 @@
 .theme-dark .appMount_ea7e65,
 .theme-dark .typeWindows_a934d8,
 .theme-dark .guilds_a4d4d9,
-.theme-dark .appAsidePanelWrapper_bd26cc /* Main window padding width */
+.theme-dark .appAsidePanelWrapper_bd26cc, /* Main window padding width */
 .theme-dark .bg_d4b6c5 { /* Main window background color */
     background-color: var(--app-primary-color) !important;
 }
