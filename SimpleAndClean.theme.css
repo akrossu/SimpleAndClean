@@ -39,3 +39,108 @@
 	--settingsheight: 80; /* default:	80vh  (height of the settings modal, vh)*/
 	--settingsbackground: transparent; /* default: transparent (lowest BG Color of changed Windows, change it in case another Theme turns them transparent) */
 }
+
+.buttonContainer_f9f2ca {
+    display: none;
+}
+
+/* ----------------------------------------------- ALL MESSAGES ----------------------------------------------- */
+.messageContent_f9f2ca {
+    background-color: var(--app-primary-color);
+    padding-left: 1rem !important;
+    padding-top: 0.5rem;
+    padding-inline: 1rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0 var(--app-border-radius) var(--app-border-radius) var(--app-border-radius);
+    width: 50%;
+    left: 70px;
+}
+
+/* ----------------------------------------------- USER MESSAGES ----------------------------------------------- */
+
+.messageListItem_d5deea:has([src*="282593436803268618"]) .messageContent_f9f2ca,
+.messageListItem_d5deea:has([src*="282593436803268618"]) .container_b558d0 {
+    margin-right: 6px;
+    padding-top: 0.5rem;
+    padding-inline: 1rem;
+    padding-bottom: 0.5rem;
+    border-radius: var(--app-border-radius) 0 var(--app-border-radius) var(--app-border-radius);
+    background-color: rgb(74, 89, 78);
+    margin-left: 46%;
+    width: inherit;
+    left: 0;
+}
+
+.messageListItem_d5deea:has([src*="282593436803268618"]) .header_f9f2ca {
+    padding-right: 0.5rem;
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0.5rem;
+}
+
+.messageListItem_d5deea:has([src*="282593436803268618"]) .avatar_f9f2ca {
+    left: inherit;
+    right: 2px;
+}
+
+.messageListItem_d5deea:has([src*="282593436803268618"]) .container_b558d0 {
+    border-radius: 0 0 var(--app-border-radius) var(--app-border-radius);
+    margin-top: calc(-1 * var(--app-border-radius));
+}
+
+/* MESSAGE PING */
+
+.mentioned_d5deea {
+    background-color: rgb(58, 48, 56);
+    border-radius: 0 1rem 1rem 0;
+}
+
+/* Colored text messages */
+/* .mentioned_d5deea .messageContent_f9f2ca, */
+.mentioned_d5deea::before {
+    background-color: rgb(110, 89, 105);
+}
+
+/* ----------------------------------------------- MESSAGE REPLIES ----------------------------------------------- */
+
+.repliedMessage_f9f2ca:has([src*="282593436803268618"]) {
+    left: 48%;
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.repliedMessage_f9f2ca:has([src*="282593436803268618"])::before {
+    display: none;
+}
+
+.repliedMessage_f9f2ca:has([src*="282593436803268618"])::after {
+    --spine-width: 2px;
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    top: 50%;
+    left: 100%;
+    bottom: 0;
+    width: 33px;
+    right: calc(-1*(.5* var(--avatar-size) + var(--gutter)));
+    margin-left: var(--reply-spacing);
+    margin-top: -1px;
+    margin-top: calc(-.5* var(--spine-width));
+    margin-right: -1px;
+    margin-right: calc(-.5* var(--spine-width));
+    margin-bottom: calc(-4px + var(--custom-message-spacing-vertical-container-cozy));
+    border-color: var(--interactive-muted);
+    border-width: 0 0 2px 2px;
+    border-width: var(--spine-width) var(--spine-width) 0 0;
+    border-style: solid;
+    border-top-right-radius: 6px;
+}
+
+.repliedMessage_f9f2ca .messageContent_f9f2ca { /* Fixes replies */
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: inherit !important;
+}
