@@ -5,6 +5,17 @@
     padding-left: 1rem;
 } */
 
+/* Overrides the default css variables Discord uses */
+:root {
+    --text-link: color-mix(
+        in oklab,
+        var(--hyperlink-text-color) 100%,
+        var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+        );
+    
+    --radius-md: var(--app-border-radius);
+}
+
 /* ----------------------------------------------- */
 /*                   App Header                    */
 /* ----------------------------------------------- */
@@ -61,7 +72,7 @@
 
 /* Transparent props */
 ::-webkit-scrollbar-track,
-.inlineMediaEmbed_ad0b71, /* GIF backgrounds */
+.inlineMediaEmbed_b0068a, /* GIF backgrounds */
 .imageContent_cf58b5 /* Transparent image background fix */ {
     background-color: rgba(0, 0, 0, 0) !important;
 }
@@ -110,7 +121,7 @@
     background: var(--bg-overlay-2, var(--background-secondary-alt)) !important;
 }
 /* gradient above user section */
-/* .theme-dark .wrapper_e832ee::before  {
+/* .theme-dark .wrapper_adcaac::before  {
     background-color: linear-gradient(180deg, rgba(0, 0, 0, 0)0%, rgba(var(--bg-overlay-2, var(--background-secondary-alt)), 1)100%) !important;
 } */
 
@@ -145,7 +156,7 @@
 
 /* gradient above user section */
 /* TOFIX: Currently does not have combatability with discord themes. */
-/* .theme-dark .wrapper_e832ee::before {
+/* .theme-dark .wrapper_adcaac::before {
     content: "";
     position: absolute;
     display: block;
@@ -220,7 +231,7 @@
 }
 
 .theme-dark .chatContent_a7d72e, /* Main message content wrapper */
-.theme-dark .content_fc5f50, /* Message Date seperator background */
+.theme-dark .content_c2654d, /* Message Date seperator background */
 .theme-dark .channelTextArea_a7d72e /* Message Box form wrapper */ {
     background-color: var(--app-tri-color) !important;
 }
@@ -229,14 +240,14 @@
     background-color: var(--app-accent-color) !important;
 }
 
-.isUnread_fc5f50 .content_fc5f50 { /* New message date */
+.isUnread_c2654d .content_c2654d { /* New message date */
     color: var(--new-message-color) !important;
 }
-.isUnread_fc5f50 { /* Message divider */
+.isUnread_c2654d { /* Message divider */
     border-color: var(--new-message-color) !important;
 }
-.unreadPillCapStroke_fc5f50, /* New pill triangle cap thing */
-.unreadPill_fc5f50 /* Body of new notification pill */ {
+.unreadPillCapStroke_c2654d, /* New pill triangle cap thing */
+.unreadPill_c2654d /* Body of new notification pill */ {
     fill: var(--new-message-color) !important;
     stroke: var(--new-message-color) !important;
     background-color: var(--new-message-color) !important;
@@ -277,7 +288,7 @@
     display: none;
 }
 /* Hides bloat buttons (gift, sticker, gif) */
-/* .button_cecf00 { achieves the same thing but felt like it wasn't eh uk?
+/* .button_f9af59 { achieves the same thing but felt like it wasn't eh uk?
     display: none;
 } */
 
@@ -292,6 +303,17 @@
 .form_a7d72e::after, /* hides gradient from message wrapper */
 .form_a7d72e::before {
     display: none;
+}
+
+/* ----------------------------------------------- */
+/*                      Forums                     */
+/* ----------------------------------------------- */
+.theme-dark .container_a6d69a {
+    background-color: var(--app-tri-color);
+}
+
+.lookFilled_dd4f85.colorBrand_dd4f85 {
+    background-color: var(--app-accent-color);
 }
 
 /* ----------------------------------------------- */
@@ -313,7 +335,7 @@
     display: none;
 }
 
-.children_e44302::after { /* TOFIX: ONLY APPLIES TO THE DARK THEME AND NOT THE ALT COLORS OR LIGHT THEME?????? WHY HOW WHAT */
+.children_fc4f04::after { /* TOFIX: ONLY APPLIES TO THE DARK THEME AND NOT THE ALT COLORS OR LIGHT THEME?????? WHY HOW WHAT */
     background: linear-gradient(to right, rgba(0, 0, 0, 0)0%, var(--app-tri-color, 1)100%) !important;
 }
 
@@ -358,7 +380,7 @@
 
 /* Colors */
 .theme-dark .peopleColumn_c2739c, /* Friends List */
-.theme-dark .container_e44302, /* Friends List Title Bar */
+.theme-dark .container_fc4f04, /* Friends List Title Bar */
 .theme-dark .itemCard_f02fcf, /* Friends List Activity Wrapper */
 .theme-dark .body_cd82a7 .separator_cd82a7 { /* Inner Card seperators */
     background-color: var(--app-tri-color) !important;
