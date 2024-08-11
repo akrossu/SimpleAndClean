@@ -1,9 +1,9 @@
 /* Update Notifier */
-/* [id="Simple and Clean-card"] .bd-title::after {
+[id="Simple and Clean-card"] .bd-title::after {
     content: "Currently being updated.";
     color: red;
     padding-left: 1rem;
-} */
+}
 
 /* Overrides the default css variables Discord uses */
 :root {
