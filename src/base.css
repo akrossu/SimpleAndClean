@@ -400,6 +400,7 @@
 /* ----------------------------------------------- */
 /*                    Settings                     */
 /* ----------------------------------------------- */
+
 .theme-dark .bd-addon-card,
 .theme-dark .bd-addon-header {
     background-color: var(--app-primary-color) !important;
