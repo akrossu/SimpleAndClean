@@ -32,11 +32,11 @@
     display: none;
 }
 
-.theme-dark .appAsidePanelWrapper_bd26cc { /* Main window padding width */
+.theme-dark .appAsidePanelWrapper_bd26cc { /* Main window color compatibility */
     background: var(--bg-overlay-4, var(--background-secondary-alt)) !important;
 }
 
-.theme-light .appAsidePanelWrapper_bd26cc { /* Main window padding width */
+.theme-light .appAsidePanelWrapper_bd26cc { /* Main window color compatibility */
     background: var(--bg-overlay-5, var(--background-secondary-alt)) !important;
 }
 
@@ -50,7 +50,7 @@
 
 .appAsidePanelWrapper_bd26cc { /* Main window padding width */
     margin: 0;
-    padding: 0 var(--app-border-margin) var(--app-border-margin) 0 !important;
+    padding: 0 var(--app-border-margin) var(--app-border-margin) 0;
 }
 
 .theme-dark .content_a4d4d9 {
@@ -149,7 +149,7 @@
 .theme-dark [aria-label="Share Your Screen"],
 .theme-dark [aria-label="Start An Activity"],
 .theme-dark [aria-label="Open Soundboard"] {
-    background-color: var(--app-tri-color);
+    background-color: var(--app-tri-color) !important;
 }
 
 /* --------------- Voice/User Area --------------- */
@@ -249,7 +249,7 @@
 }
 
 .newMessagesBar_cf58b5 { /* New Message bar */
-    background-color: none !important;
+    background-color: var(--app-accent-color) !important;
 }
 
 .isUnread_c2654d .content_c2654d { /* New message date */
@@ -329,7 +329,7 @@
 }
 
 .lookFilled_dd4f85 .colorBrand_dd4f85 {
-    background-color: none;
+    background-color: var(--app-accent-color);
 }
 
 /* ----------------------------------------------- */
