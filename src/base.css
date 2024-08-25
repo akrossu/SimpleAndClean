@@ -249,7 +249,7 @@
 }
 
 .newMessagesBar_cf58b5 { /* New Message bar */
-    background-color: var(--app-accent-color) !important;
+    background-color: none !important;
 }
 
 .isUnread_c2654d .content_c2654d { /* New message date */
@@ -328,8 +328,8 @@
     background-color: var(--app-tri-color);
 }
 
-.lookFilled_dd4f85.colorBrand_dd4f85 {
-    background-color: var(--app-accent-color);
+.lookFilled_dd4f85 .colorBrand_dd4f85 {
+    background-color: none;
 }
 
 /* ----------------------------------------------- */
