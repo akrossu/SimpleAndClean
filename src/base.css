@@ -7,11 +7,11 @@
 
 /* Overrides the default css variables Discord uses */
 :root {
-    --text-link: color-mix(
+    /* --text-link: color-mix(
         in oklab,
         var(--hyperlink-text-color) 100%,
         var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
-        );
+        ); */
     
     --radius-md: var(--app-border-radius);
 }
@@ -144,6 +144,10 @@
     background-color: var(--app-tri-color) !important;
 }
 
+.buttonActive_adcaac { /* Voice Area Action Buttons FIX */
+    background-color: var(--app-accent-color) !important;
+}
+
 /* .theme-dark .button_adcaac, /* Activity Area buttons (bloat) */
 .theme-dark [aria-label="Turn On Camera"],
 .theme-dark [aria-label="Share Your Screen"],
@@ -166,6 +170,22 @@
     height: 0.5rem;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0)0%, var(--app-secondary-color, 1)100%) !important;
 } */
+.panels_a4d4d9 {
+    position: relative;
+}
+
+.panels_a4d4d9::before {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, var(--app-secondary-color, 1) 100%) !important;
+}
+
+.panels_a4d4d9::before {
+    content: "";
+    position: absolute;
+    top: -0.5rem;
+    left: 0;
+    width: 100%;
+    height: 8px;
+}
 
 .sidebar_a4d4d9, /* Sidebar */
 .bannerImage_fd6364, /* Server banner gradient overlay */
@@ -202,10 +222,6 @@
 [aria-label="User area"] { /* Area wrapper FIX */
     margin: 0;
     padding: var(--app-border-margin);
-}
-
-.buttonActive_adcaac { /* Voice Area Action Buttons FIX */
-    background-color: var(--app-accent-color) !important;
 }
 
 /* ----------------------------------------------- */
@@ -296,12 +312,16 @@
     top: -1.5rem;
     left: 0;
     right: 0;
-    padding-left: calc(var(--app-border-margin) * 3);
+    padding-inline: 0.5rem;
     margin-right: 171px;
 }
 
 .form_a7d72e::after, /* hides gradient from message wrapper */
 .form_a7d72e::before {
+    display: none;
+}
+
+.channelAppLauncher_df39bd { /* get this out of my discord */
     display: none;
 }
 
