@@ -53,5 +53,9 @@
     --linkcolor:	0, 176, 244;	/*	link		-	default:	0, 176, 244 	*/
 
     /* --------------------- DEFAULT DISCORD COLOR OVERRIDES --------------------- */
-    --status-speaking: var(--app-accent-color);
+    /* All Green Override */
+    --green-360: var(--app-accent-color); 
+
+    /* Per Element Colors */
+    /* --status-speaking: var(--app-accent-color); */
 }
