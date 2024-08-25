@@ -144,10 +144,6 @@
     background-color: var(--app-tri-color) !important;
 }
 
-.buttonActive_adcaac { /* Voice Area Action Buttons FIX */
-    background-color: var(--app-accent-color) !important;
-}
-
 /* .theme-dark .button_adcaac, /* Activity Area buttons (bloat) */
 .theme-dark [aria-label="Turn On Camera"],
 .theme-dark [aria-label="Share Your Screen"],
@@ -322,7 +318,7 @@
 }
 
 .channelAppLauncher_df39bd { /* get this out of my discord */
-    display: none;
+    display: none !important;
 }
 
 /* ----------------------------------------------- */
