@@ -100,6 +100,17 @@
 }
 
 /* ----------------------------------------------- */
+/*                      Forums                     */
+/* ----------------------------------------------- */
+.theme-dark .container_a6d69a {
+    background-color: var(--app-tri-color);
+}
+
+.lookFilled_dd4f85 .colorBrand_dd4f85 {
+    background-color: var(--app-accent-color);
+}
+
+/* ----------------------------------------------- */
 /*               Sidebar Components                */
 /* ----------------------------------------------- */
 
@@ -149,7 +160,7 @@
 .theme-dark [aria-label="Share Your Screen"],
 .theme-dark [aria-label="Start An Activity"],
 .theme-dark [aria-label="Open Soundboard"] {
-    background-color: var(--app-tri-color) !important;
+    background-color: var(--app-tri-color);
 }
 
 /* --------------- Voice/User Area --------------- */
@@ -319,17 +330,6 @@
 
 .channelAppLauncher_df39bd { /* get this out of my discord */
     display: none !important;
-}
-
-/* ----------------------------------------------- */
-/*                      Forums                     */
-/* ----------------------------------------------- */
-.theme-dark .container_a6d69a {
-    background-color: var(--app-tri-color);
-}
-
-.lookFilled_dd4f85 .colorBrand_dd4f85 {
-    background-color: var(--app-accent-color);
 }
 
 /* ----------------------------------------------- */
