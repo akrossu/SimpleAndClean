@@ -18,24 +18,40 @@
 /* ----------------------------------------------- */
 /* @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css); */
 
-:root {
-    --app-primary-color: rgb(16, 16, 16);   /* Default: rgb(30, 31, 34) */
-    --app-secondary-color: rgb(23, 23, 23); /* Default: rgb(30, 31, 34) */
-    --app-tri-color: rgb(29, 29, 29);       /* Default: rgb(49, 51, 56) */
-    --app-accent-color: rgb(107, 134, 115); /* Recommend keeping the same contrast/brightness, just change the color for ease of readability */
+/* ----------------------------------------------- */
+/*            Blurple Recolor by DevilBro          */
+/* ----------------------------------------------- */
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
 
+:root {
+    --COLOR-PICKER: rgb(64, 85, 62);
+
+    /* ------------------------------ APP SETTINGS ------------------------------- */
+    --app-primary-color: rgb(16, 16, 16);   /* Default: 30, 31, 34 */
+    --app-secondary-color: rgb(23, 23, 23); /* Default: 30, 31, 34 */
+    --app-tri-color: rgb(29, 29, 29);       /* Default: 49, 51, 56 */
+    --app-accent-color: rgb(107, 134, 115); /* Recommend keeping the same contrast/brightness, just change the color for ease of readability */
+    
     --app-border-radius: 0.5rem; /* Generally works between 0 - 2rem or 0px - ~32px */
     --app-border-margin: 0.5rem; /* Generally works between 0.3 - 0.7rem or ~5px - ~11px of spacing */
-
+    
     /* Additional Colors */
     --new-message-color: var(--app-accent-color); /* Default: rgb(242, 63, 66) */
     --new-message-banner: var(--bg-overlay-4); /* This enables color sync when using a discord nitro theme. You can set this to a static color. */
-
+    
     /* Custom Discord Icon */
     /* --discord-icon: url("https://i.imgur.com/Ji3J7d5.png"); */
-
-    /* Options for settings modal */
+    
+    /* ----------------------------- SETTINGS MODAL ------------------------------ */
     --settingswidth: 960;  /* default:	960px (width of the settings modal, px)*/
 	--settingsheight: 80; /* default:	80vh  (height of the settings modal, vh)*/
 	--settingsbackground: transparent; /* default: transparent (lowest BG Color of changed Windows, change it in case another Theme turns them transparent) */
+
+    /* ----------------------------- BLURPLE RECOLOR ----------------------------- */
+    --accentcolor:  107, 134, 115;	/*	blurple		-	default:	88, 101, 242    */
+    --accentcolor2: 64, 85, 62;     /*	boostpink	-	default:	255, 115, 250   */
+    --linkcolor:	0, 176, 244;	/*	link		-	default:	0, 176, 244 	*/
+
+    /* --------------------- DEFAULT DISCORD COLOR OVERRIDES --------------------- */
+    --status-speaking: var(--app-accent-color);
 }
