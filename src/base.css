@@ -243,11 +243,11 @@
     background: var(--new-message-banner, var(--background-secondary-alt));
 }
 
-.theme-dark .scrollableContainer_d0696b /* Message Box form */ {
+.theme-dark .scrollableContainer_bdf0de /* Message Box form */ {
     background: var(--bg-overlay-1, var(--background-secondary-alt)) !important;
 }
 
-.theme-dark .scrollableContainer_d0696b, /* Message Box form */
+.theme-dark .scrollableContainer_bdf0de, /* Message Box form */
 .theme-dark .wrapper_faf5ab, /* Announcement follow banner */
 .theme-dark .messagesPopout_ac90a2 /* Pinned Messages */ {
     background-color: var(--app-primary-color) !important;
@@ -305,7 +305,7 @@
     margin-bottom: var(--app-border-margin) !important;
 }
 
-.channelTextArea_a7d72e .scrollableContainer_d0696b { /* Message Box form */
+.channelTextArea_a7d72e .scrollableContainer_bdf0de { /* Message Box form */
     border-radius: var(--app-border-radius);
 }
 
