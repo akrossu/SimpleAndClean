@@ -40,11 +40,10 @@
     background: var(--bg-overlay-5, var(--background-secondary-alt)) !important;
 }
 
-.theme-dark .appMount_ea7e65,
-.theme-dark .typeWindows_a934d8,
+.theme-dark #app-mount,
+.theme-dark #app-mount .typeWindows_a934d8,
 .theme-dark .guilds_a4d4d9,
-.theme-dark .appAsidePanelWrapper_bd26cc, /* Main window padding width */
-.theme-dark .bg_d4b6c5 { /* Main window background color */
+.theme-dark .footer_d71945 { /* Main window background color */
     background-color: var(--app-primary-color) !important;
 }
 
@@ -135,6 +134,7 @@
 .theme-dark .searchBar_f0963d /* DM searchbar titlebar */ {
     background: var(--bg-overlay-2, var(--background-secondary-alt)) !important;
 }
+
 /* gradient above user section */
 /* .theme-dark .wrapper_adcaac::before  {
     background-color: linear-gradient(180deg, rgba(0, 0, 0, 0)0%, rgba(var(--bg-overlay-2, var(--background-secondary-alt)), 1)100%) !important;
@@ -156,7 +156,7 @@
 
 .theme-dark .container_fd6364, /* Sidebar Title (ex. Server name background) */
 .theme-dark .searchBar_f0963d /* DM searchbar titlebar */ {
-    background-color: var(--app-tri-color) !important;
+    background-color: var(--bg-overlay-4, var(--app-tri-color)) !important;
 }
 
 /* .theme-dark .button_adcaac, /* Activity Area buttons (bloat) */
@@ -165,6 +165,10 @@
 .theme-dark [aria-label="Start An Activity"],
 .theme-dark [aria-label="Open Soundboard"] {
     background-color: var(--app-tri-color);
+}
+
+.avatarWrapper_b2ca13 {
+    min-width: 105px;
 }
 
 /* --------------- Voice/User Area --------------- */
