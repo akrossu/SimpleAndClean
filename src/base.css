@@ -1,3 +1,8 @@
+
+/* ----------------------------------------------- */
+/*                   App Header                    */
+/* ----------------------------------------------- */
+
 /* Update Notifier */
 /* [id="Simple and Clean-card"] .bd-title::after {
     content: "Currently being updated.";
@@ -43,7 +48,9 @@
 .theme-dark #app-mount,
 .theme-dark #app-mount .typeWindows_a934d8,
 .theme-dark .guilds_a4d4d9,
-.theme-dark .footer_d71945 { /* Main window background color */
+.theme-dark .footer_d71945,
+.theme-dark .appAsidePanelWrapper_bd26cc,
+.theme-dark .bg_d4b6c5 { /* Main window background color */
     background-color: var(--app-primary-color) !important;
 }
 
@@ -98,7 +105,7 @@
     content: var(--discord-icon);
 }
 
-.footer_aa1bff { /* Discovery button background */
+.footer_d71945 { /* Discovery button background */
     background: var(--app-primary-color, var(--background-tertiary));
 }
 
