@@ -1,3 +1,6 @@
+> [!CAUTION]
+> As of Stable version 382201 (3/26/25) the current release theme will **not** work. f**k you discord
+
 # SimpleAndClean ![Release](https://img.shields.io/github/release/akrossu/SimpleAndClean?logo=github&include_prereleases=&sort=semver&color=62b061&style=flat-square) [![Discord](https://img.shields.io/discord/344266404993826817?logo=discord&logoColor=white&label=discord&color=7289DA&style=flat-square)](https://discord.gg/ANgfZVa)
 
 The objective of this theme is to achieve as clean of a UI as possible without nipping functionality. This theme is still new so please open an issue or else I may not know if something has broken or not yet been themed. Thank you for using my theme :3
