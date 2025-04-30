@@ -34,7 +34,7 @@ Please note this is an active project—if you encounter issues or visual incons
 - **Extensive color palette**  
   A wide range of colors to match your style and mood.
 
-- **Accessibility first design**
+- **Accessibility first design**  
   Prioritizes accessible features so they will always work.
 
 - **Developer-friendly comments**  
