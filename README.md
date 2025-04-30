@@ -39,9 +39,9 @@ Please note this is an active project—if you encounter issues or visual incons
 
 ## Previews
 
-![Banner](https://github.com/akrossu/SimpleAndClean/blob/main/src/resources/theme-banner.png?raw=true)
+![Banner](https://github.com/akrossu/SimpleAndClean/blob/main/src/resources/preview1.png?raw=true)
 
-![subBanner](https://github.com/akrossu/SimpleAndClean/blob/main/src/resources/theme.png?raw=true)
+![subBanner](https://github.com/akrossu/SimpleAndClean/blob/main/src/resources/preview2.png?raw=true)
 
 ## Installation
 
