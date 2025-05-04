@@ -104,7 +104,7 @@ Please note this is an active project—if you encounter issues or visual incons
 
 ## Feedback & Community
 
-If you enjoy the theme or run into bugs, feel free to open an issue or join the [support Discord server](https://discord.gg/ANgfZVa). Suggestions and contributions are always welcome!
+If you enjoy the theme or run into bugs, feel free to open an issue or [reach out to me](https://discordapp.com/users/282593436803268618). Suggestions and contributions are always welcome!
 
 ---
 
