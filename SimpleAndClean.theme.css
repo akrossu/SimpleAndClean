@@ -3,7 +3,7 @@
  * @description Removes clutter and unneeded features for a more concise user experience.
  * @author Akross
  * @authorId 282593436803268618
- * @version 1.0
+ * @version 2.0
  * @source https://github.com/akrossu/SimpleAndClean
  * @website https://akrossu.github.io/
 */
@@ -12,50 +12,36 @@
 /*            Simple and Clean Theme :3            */
 /* ----------------------------------------------- */
 @import url(https://akross.dev/SimpleAndClean/src/base.css);
+@import url(https://akross.dev/SimpleAndClean/src/windows.css);
+@import url(https://akross.dev/SimpleAndClean/src/chat.css);
+@import url(https://akross.dev/SimpleAndClean/src/sidebar.css);
+@import url(https://akross.dev/SimpleAndClean/src/mica.css);
+@import url(https://akross.dev/SimpleAndClean/src/settings.css);
 
-/* ----------------------------------------------- */
-/*            Settings Modal by DevilBro           */
-/* ----------------------------------------------- */
-/* @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css); */
+:root { /* APP COLORS */
+    --dark-app-wrapper: lab(4.68% 0 0);
+    --dark-sidebar: lab(7.74% 0 0);
+    --dark-backgoround: lab(10.77% 0 0);
 
-/* ----------------------------------------------- */
-/*            Blurple Recolor by DevilBro          */
-/* ----------------------------------------------- */
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
+    --light-app-wrapper: lab(95.15% 0.01 -0.01);
+}
 
-:root {
-    --COLOR-PICKER: rgb(64, 85, 62);
+:root { /* MICA */
+    --app-bg-url: url('https://4kwallpapers.com/images/walls/thumbs_3t/5669.jpg');
+    /* --app-bg-url: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/36dc1d86-c763-4307-8f6f-2ea41562fc45/df5x8xe-e84efa8e-20d7-4e5c-b2e8-057705500cce.png/v1/fill/w_1192,h_670,q_70,strp/blueberries_by_hjeusarts_df5x8xe-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvMzZkYzFkODYtYzc2My00MzA3LThmNmYtMmVhNDE1NjJmYzQ1XC9kZjV4OHhlLWU4NGVmYThlLTIwZDctNGU1Yy1iMmU4LTA1NzcwNTUwMGNjZS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.JW6CtFrWfQAxm47DnWGB3tcjV49tJYblgt03rD1F_g0'); */
+    /* --app-bg-url: url('https://preview.redd.it/windows-wallpaper-minimalism-1920-x-1080-v0-rfg90adwkbsa1.png?width=1080&crop=smart&auto=webp&s=976b9661b09dc3d35152759246f9d6396d90ce5b'); */
 
-    /* ------------------------------ APP SETTINGS ------------------------------- */
-    --app-primary-color: rgb(16, 16, 16);   /* Default: 30, 31, 34 */
-    --app-secondary-color: rgb(23, 23, 23); /* Default: 30, 31, 34 */
-    --app-tri-color: rgb(29, 29, 29);       /* Default: 49, 51, 56 */
-    --app-accent-color: rgb(107, 134, 115); /* Recommend keeping the same contrast/brightness, just change the color for ease of readability */
+    /* --app-bg-url: url('https://wallpapersok.com/images/hd/windows-11-light-blue-bloom-c03qtyuucvncyjcc.jpg'); */
+    /* --app-bg-url: url('https://i.pinimg.com/736x/05/b4/fb/05b4fbc3f169175e6deb97b3977175b6.jpg'); */
     
-    --app-border-radius: 0.5rem; /* Generally works between 0 - 2rem or 0px - ~32px */
-    --app-border-margin: 0.5rem; /* Generally works between 0.3 - 0.7rem or ~5px - ~11px of spacing */
-    
-    /* Additional Colors */
-    --new-message-color: var(--app-accent-color); /* Default: rgb(242, 63, 66) */
-    --new-message-banner: var(--bg-overlay-4); /* This enables color sync when using a discord nitro theme. You can set this to a static color. */
-    
-    /* Custom Discord Icon */
-    /* --discord-icon: url("https://i.imgur.com/Ji3J7d5.png"); */
-    
-    /* ----------------------------- SETTINGS MODAL ------------------------------ */
-    --settingswidth: 960;  /* default:	960px (width of the settings modal, px)*/
-	--settingsheight: 80; /* default:	80vh  (height of the settings modal, vh)*/
-	--settingsbackground: transparent; /* default: transparent (lowest BG Color of changed Windows, change it in case another Theme turns them transparent) */
+    --app-bg-brightness: 40%;
+    --panel-rgb: rgba(0, 0, 0, 0.05);
+}
 
-    /* ----------------------------- BLURPLE RECOLOR ----------------------------- */
-    --accentcolor:  107, 134, 115;	/*	blurple		-	default:	88, 101, 242    */
-    --accentcolor2: 64, 85, 62;     /*	boostpink	-	default:	255, 115, 250   */
-    --linkcolor:	0, 176, 244;	/*	link		-	default:	0, 176, 244 	*/
+.visual-refresh.theme-dark {
+    --app-bg: var(--dark-app-wrapper);
+}
 
-    /* --------------------- DEFAULT DISCORD COLOR OVERRIDES --------------------- */
-    /* All Green Override */
-    --green-360: var(--app-accent-color); 
-
-    /* Per Element Colors */
-    /* --status-speaking: var(--app-accent-color); */
+.visual-refresh.theme-light {
+    --app-bg: var(--light-app-wrapper);
 }
