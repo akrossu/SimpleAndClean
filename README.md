@@ -5,9 +5,6 @@
 
 </div>
 
-> [!CAUTION]
-> As of Stable version 382201 (3/26/25) the current release theme will **not** work. f**k you discord
-
 ## Overview
 
 **SimpleAndClean** aims to deliver as clean of a UI as possible without nipping functionality. Designed with Vencord in mind, it ensures seamless integration and customizability for both casual users and developers alike.
@@ -20,7 +17,8 @@ Please note this is an active project—if you encounter issues or visual incons
 
 - **No branding or titlebar**  
   Keep things clean. Use native Windows shortcuts like `Win + ↑` or `Win + ↓` to manage window sizing.
-  > **Tip:** With the title bar removed, you may want to install [AltSnap](https://github.com/RafaelBergson/AltSnap) for – a lightweight utility that lets you drag windows by holding `Alt` and clicking anywhere in the window.
+> [!TIP]
+> With the title bar removed, you may want to install [AltSnap](https://github.com/RafaelBergson/AltSnap) for – a lightweight utility that lets you drag windows by holding `Alt` and clicking anywhere in the window.
 
 - **Full Vencord compatibility**  
   Built and tested with Vencord to ensure consistent experience.
@@ -48,19 +46,27 @@ Please note this is an active project—if you encounter issues or visual incons
 
 ## Installation
 
-
-### ![BetterDiscord](https://camo.githubusercontent.com/7d1f99fb97e9ddfc29029b00bed5b0e72f659aa321a8745c60c382e26ee67c35/68747470733a2f2f646973636f72642d657874656e73696f6e732e6769746875622e696f2f6173736574732f69636f6e732f626574746572646973636f72642e706e67) [BetterDiscord](https://betterdiscord.app/)
-
-1. Download the latest release of the theme:
-    - From the [BetterDiscord Website](https://betterdiscord.app/theme/)
-    - [Latest Release](https://github.com/akrossu/SimpleAndClean/releases) and download `SimpleAndClean.theme.css`
-
-2. Navigate to the BetterDiscord Themes folder:
-    - `Settings` > `BetterDiscord` > `Themes` > `Open Themes Folder`
-
-3. Place `SimpleAndClean.theme.css` in the folder
-
 ### ![Vencord](https://camo.githubusercontent.com/a8c728c8a3c92c7ac59e8c811da0e9a00513661c22f6fa4419ed4fbad662cc30/68747470733a2f2f646973636f72642d657874656e73696f6e732e6769746875622e696f2f6173736574732f69636f6e732f76656e636f72642e676966) [Vencord](https://vencord.dev/)
+
+#### QuickCSS
+
+> If you're just interested in changing things like the backgrounds, you can simply install themes by importing them using QuickCSS
+
+1. Navigate to `Settings` > `Vencord` > `Themes` > `Local Themes`
+
+2. Select `Edit QuickCSS`
+
+3. Copy and Paste `@import url(https://akross.dev/SimpleAndClean/SimpleAndClean.theme.css);` at the top of the file.
+
+4. You may edit custom properties found in the [theme file](https://akross.dev/SimpleAndClean/SimpleAndClean.theme.css) by placing them within a `:root` selector for example:
+
+```css
+:root {
+    --app-bg-url: url('https://4kwallpapers.com/images/walls/thumbs_3t/5669.jpg');
+}
+```
+
+#### Local
 
 1. Head over to the [Latest Release](https://github.com/akrossu/SimpleAndClean/releases) and download `SimpleAndClean.theme.css`
 
@@ -70,6 +76,25 @@ Please note this is an active project—if you encounter issues or visual incons
 3. Place `SimpleAndClean.theme.css` in the folder
 
 4. Make sure to click `Load Missing Themes` to load your new theme!
+
+<br/>
+
+
+### ![BetterDiscord](https://camo.githubusercontent.com/7d1f99fb97e9ddfc29029b00bed5b0e72f659aa321a8745c60c382e26ee67c35/68747470733a2f2f646973636f72642d657874656e73696f6e732e6769746875622e696f2f6173736574732f69636f6e732f626574746572646973636f72642e706e67) [BetterDiscord](https://betterdiscord.app/)
+
+> [!IMPORTANT]
+> BetterDiscord is not entirely supported as of right now, but I will be slowly adding specific platform support as soon as core features work.
+
+#### Local
+
+1. Download the latest release of the theme:
+    - From the [BetterDiscord Website](https://betterdiscord.app/theme/)
+    - [Latest Release](https://github.com/akrossu/SimpleAndClean/releases) and download `SimpleAndClean.theme.css`
+
+2. Navigate to the BetterDiscord Themes folder:
+    - `Settings` > `BetterDiscord` > `Themes` > `Open Themes Folder`
+
+3. Place `SimpleAndClean.theme.css` in the folder
 
 ## Related Themes
 
