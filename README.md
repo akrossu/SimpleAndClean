@@ -48,18 +48,16 @@ Please note this is an active project—if you encounter issues or visual incons
 
 ### ![Vencord](https://camo.githubusercontent.com/a8c728c8a3c92c7ac59e8c811da0e9a00513661c22f6fa4419ed4fbad662cc30/68747470733a2f2f646973636f72642d657874656e73696f6e732e6769746875622e696f2f6173736574732f69636f6e732f76656e636f72642e676966) [Vencord](https://vencord.dev/)
 
-#### QuickCSS
+#### Online
 
-> If you're just interested in changing things like the backgrounds, you can simply install themes by importing them using QuickCSS
+> If you're just interested in changing things like the backgrounds, you can simply install themes by importing them using a link to the raw theme.css file.
 
-1. Navigate to `Settings` > `Vencord` > `Themes` > `Local Themes`
+1. Navigate to `Settings` > `Vencord` > `Themes` > `Online Themes`
 
-2. Select `Edit QuickCSS`
+3. Copy and Paste `https://raw.githubusercontent.com/akrossu/SimpleAndClean/refs/heads/main/SimpleAndClean.theme.css` into the textbox.
 
-3. Copy and Paste `@import url(https://akross.dev/SimpleAndClean/SimpleAndClean.theme.css);` at the top of the file.
-
-4. You may edit custom properties found in the [theme file](https://akross.dev/SimpleAndClean/SimpleAndClean.theme.css) by placing them within a `:root` selector for example:
-
+4. You may edit custom properties found in the [theme file](https://akross.dev/SimpleAndClean/SimpleAndClean.theme.css) by navigating to `Settings` > `Vencord` > `Themes` > `Local Themes` > `Edit QuickCSS`
+  - By placing the custom property definition within a `:root` selector for example you may add custom backgrounds:
 ```css
 :root {
     --app-bg-url: url('https://4kwallpapers.com/images/walls/thumbs_3t/5669.jpg');
