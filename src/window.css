@@ -1,0 +1,20 @@
+
+:root { /* Discord Overrides */
+    --custom-app-top-bar-height: 0;
+}
+
+/* ------------------------------ APP BORDER ------------------------------ */
+
+.app__160d8 {
+    padding: var(--space-xs) var(--space-xs) var(--space-xs) 0;
+}
+
+.sidebar_c48ade:after,
+.bar_c38106 div {
+    display: none !important;
+}
+
+.bar_c38106 {
+    margin: 0;
+    padding: 0;
+}

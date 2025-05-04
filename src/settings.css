@@ -1,0 +1,13 @@
+/* ---------------------------------- SETTINGS -------------------------------------*/
+
+.vc-settings-theme-grid { /* Vencord theme layout */
+    display: flex;
+    flex-direction: column;
+}
+
+.layer__960e4 {
+    background: none !important;
+}
+.standardSidebarView__23e6b {
+    margin-left: var(--space-xs);
+}

@@ -1,0 +1,31 @@
+/* MICA EFFECTS */
+.bg__960e4 {
+    background: var(--app-bg-url) center center / cover no-repeat !important;
+    filter: brightness(var(--app-bg-brightness));
+}
+
+.wrapper_ef3116,
+.container_c8ffbb div {
+    background: transparent !important;
+}
+
+.visual-refresh .sidebarListRounded_c48ade {
+    backdrop-filter: none;
+}
+
+.privateChannels__35e86,
+.container__2637a,
+[aria-label="User area"], .panel__5dec7,
+.title_f75fb0, .chat_f75fb0,
+.container_f37cb1, .container_c8ffbb, .scroller__629e4,/* Server */
+.searchBar__35e86, .scroller__99e7c, /* DMs */
+.chatContent_f75fb0  {
+    background: var(--panel-rgb) !important; /* translucent layer */
+    backdrop-filter: blur(80px) saturate(150%) !important;
+    box-shadow: none !important;
+}
+
+.scroller__99e7c,
+.container__37e49 {
+    background: inherit !important;
+}

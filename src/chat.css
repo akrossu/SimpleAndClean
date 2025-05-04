@@ -1,0 +1,63 @@
+/* ------------------- chat header ------------------- */
+[aria-label="Set DM Wallpaper"],
+[aria-label="Start Video Call"] {
+    display: none !important;
+}
+
+/* ------------------- chat area ----------------------*/
+
+.chat_f75fb0 {
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--app-border-frame) !important;
+}
+.visual-refresh .chat_f75fb0[data-has-border=true] {
+    border-top: none;
+}
+
+.chatContent_f75fb0 form {
+    padding: 0px !important;
+}
+
+.channelTextArea_f75fb0 {
+    margin: 0 !important;
+}
+
+/* typing_b88801  */
+.typing_b88801 {
+    top: -25px;
+}
+
+.scroller__36d07  { /* Shifts main message window up */
+    padding-bottom: 1rem;
+}
+
+:where(.visual-refresh) .channelTextArea__74017 {
+    border-radius: 0 !important;
+}
+
+.visual-refresh .channelTextArea_f75fb0,
+:where(.visual-refresh) .themedBackground__74017 {
+    background: none !important;
+}
+
+:where(.visual-refresh) .channelTextArea__74017 {
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
+.scrollableContainer__74017 {
+    min-height: 56px;
+}
+
+/* Voice Chat FullScreen Border Fix */
+.base_c48ade {
+    grid-template-areas: "titleBar titleBar titleBar" "guildsList notice notice" "guildsList channelsList page" !important;
+}
+
+[aria-label="Send a gift"],
+[aria-label="Open GIF picker"],
+[aria-label="Open sticker picker"],
+.separator_aa63ab /* (accessibiltiy) Send message button seperator */ {
+    display: none !important;
+}
