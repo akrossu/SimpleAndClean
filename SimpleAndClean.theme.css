@@ -18,6 +18,9 @@
 @import url(https://akross.dev/SimpleAndClean/src/mica.css);
 @import url(https://akross.dev/SimpleAndClean/src/settings.css);
 
+/* Optional Additions */
+@import url(https://akross.dev/SimpleAndClean/src/additions/serverCircles.css);
+
 :root { /* APP COLORS */
     --dark-app-wrapper: lab(4.68% 0 0);
     --dark-sidebar: lab(7.74% 0 0);
