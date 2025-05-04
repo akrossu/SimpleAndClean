@@ -1,0 +1,25 @@
+.svg_cc5dd2 mask {
+    display: none;
+}
+
+:where(
+    .listItemWrapper__91816,
+    .blobContainer_e5445c
+) foreignObject {
+    border-radius: 100%;
+}
+
+/* Folder Icons */
+[class*="folderPreview__"] [class*="icon_"] {
+    border-radius: 100% !important;
+}
+
+:where(
+    .selected__91816,
+    .selected_e5445c,
+    .listItemWrapper__91816:hover,
+    .blobContainer_e5445c:hover
+) foreignObject {
+    border-radius: var(--radius-md) !important;
+    transition: 0.1s ease-out;
+}
