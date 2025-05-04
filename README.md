@@ -7,7 +7,7 @@
 
 ## Overview
 
-**SimpleAndClean** aims to deliver as clean of a UI as possible without nipping functionality. Designed with Vencord in mind, it ensures seamless integration and customizability for both casual users and developers alike.
+**SimpleAndClean** aims to deliver as clean of a UI as possible without nipping functionality. It ensures seamless integration and customizability for both casual users and developers alike.
 
 Please note this is an active project—if you encounter issues or visual inconsistencies, open an issue so I can fix it promptly. Thank you for supporting the theme! :3
 
@@ -18,7 +18,7 @@ Please note this is an active project—if you encounter issues or visual incons
 - **No branding or titlebar**  
   Keep things clean. Use native Windows shortcuts like `Win + ↑` or `Win + ↓` to manage window sizing.
 > [!TIP]
-> With the title bar removed, you may want to install [AltSnap](https://github.com/RafaelBergson/AltSnap) for – a lightweight utility that lets you drag windows by holding `Alt` and clicking anywhere in the window.
+> With the title bar removed, you may want to install [AltSnap](https://github.com/RafaelBergson/AltSnap) – a lightweight utility that lets you drag/resize windows by holding `Alt` and clicking anywhere in the window.
 
 - **Full Vencord compatibility**  
   Built and tested with Vencord to ensure consistent experience.
