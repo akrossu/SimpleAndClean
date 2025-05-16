@@ -56,15 +56,17 @@ Please note this is an active project—if you encounter issues or visual incons
 
 3. Copy and Paste `https://raw.githubusercontent.com/akrossu/SimpleAndClean/refs/heads/main/SimpleAndClean.theme.css` into the textbox.
 
-4. You may edit custom properties found in the [theme file](https://akross.dev/SimpleAndClean/SimpleAndClean.theme.css) by navigating to `Settings` > `Vencord` > `Themes` > `Local Themes` > `Edit QuickCSS`
-  - By placing the custom property definition within a `:root` selector for example you may add custom backgrounds:
+You may edit custom properties found in the [theme file](https://akross.dev/SimpleAndClean/SimpleAndClean.theme.css) by navigating to `Settings` > `Vencord` > `Themes` > `Local Themes` > `Edit QuickCSS`
+  - By placing the custom property definition within a `:root` selector for example you may add custom backgrounds for both the Online and Local themes:
+> Note that you may only use web images.
 ```css
 :root {
-    --app-bg-url: url('https://4kwallpapers.com/images/walls/thumbs_3t/5669.jpg');
+    --app-bg-url: url('https://4kwallpapers.com/images/walls/thumbs_3t/5669.jpg') !important;
 }
 ```
+<details>
 
-#### Local
+<summary><h4>Local</h4></summary>
 
 1. Head over to the [Latest Release](https://github.com/akrossu/SimpleAndClean/releases) and download `SimpleAndClean.theme.css`
 
@@ -74,6 +76,8 @@ Please note this is an active project—if you encounter issues or visual incons
 3. Place `SimpleAndClean.theme.css` in the folder
 
 4. Make sure to click `Load Missing Themes` to load your new theme!
+
+</details>
 
 <br/>
 
