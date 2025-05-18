@@ -12,13 +12,14 @@
 /*            Simple and Clean Theme :3            */
 /* ----------------------------------------------- */
 @import url(https://akross.dev/SimpleAndClean/src/base.css);
-@import url(https://akross.dev/SimpleAndClean/src/window.css);
 @import url(https://akross.dev/SimpleAndClean/src/chat.css);
-@import url(https://akross.dev/SimpleAndClean/src/sidebar.css);
 @import url(https://akross.dev/SimpleAndClean/src/mica.css);
+@import url(https://akross.dev/SimpleAndClean/src/sidebar.css);
+@import url(https://akross.dev/SimpleAndClean/src/friends.css);
 @import url(https://akross.dev/SimpleAndClean/src/settings.css);
 
 /* Optional Additions */
+@import url(https://akross.dev/SimpleAndClean/src/window.css); /* Gets rid of window controls */
 @import url(https://akross.dev/SimpleAndClean/src/additions/serverCircles.css);
 
 :root { /* APP COLORS */
