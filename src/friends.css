@@ -1,0 +1,54 @@
+.page_c48ade {
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--app-border-frame) !important;
+}
+
+.actionButton_f8fa06,
+.searchBar__5ec2f {
+    background: none;
+}
+
+.visual-refresh .container__133bf,
+.container__7d20c, /* Friends list */
+.container__133bf > *, /* Friends list */
+.nowPlayingColumn__133bf { /* Friends list */
+    background: transparent !important;
+}
+
+.visual-refresh .sidebarListRounded_c48ade {
+    backdrop-filter: none;
+}
+
+.visual-refresh .peopleColumn__133bf,
+.visual-refresh .nowPlayingColumn__133bf,
+[role="navigation"] {
+    background: var(--panel-rgb) !important;
+    backdrop-filter: blur(80px) saturate(150%) !important;
+    box-shadow: none !important;
+}
+
+/* activity feed */
+[aria-label="Friends"] > [role="navigation"] {
+    border: 1px solid var(--app-border-frame) !important;
+    border-radius: var(--radius-sm);
+    margin-bottom: var(--space-xs);
+}
+
+.page_c48ade,
+.scroller__7d20c,
+[aria-label="Friends"] {
+    border: none !important;
+}
+
+
+.peopleColumn__133bf {
+    border: 1px var(--app-border-frame) solid !important;
+    border-radius: var(--radius-sm);
+}
+
+.nowPlayingColumn__133bf {
+    margin-left: var(--space-xs);
+    border: 1px var(--app-border-frame) solid !important;
+    border-radius: var(--radius-sm);
+    top: -50px;
+}
