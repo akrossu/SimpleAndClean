@@ -14,6 +14,10 @@
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, var(--background-base-lowest) 100%);
 }
 
+.itemsContainer_ef3116 {
+    background: none !important;
+}
+
 /* Sidebar / User area */
 .visual-refresh .sidebarListRounded_c48ade {
     border-top-left-radius: 0 !important;
@@ -57,7 +61,8 @@
     border-top-left-radius: 0 !important;
 }
 
-.visual-refresh .panel__5dec7 { /* share screen */
+.visual-refresh .panel__5dec7,  /* share screen */
+.panels_c48ade { /* User Panel Parent Wrapper */
     background: none !important;
 }
 
