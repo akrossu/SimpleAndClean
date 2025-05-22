@@ -57,7 +57,8 @@
     border-top-left-radius: 0 !important;
 }
 
-.visual-refresh .panel__5dec7 { /* share screen */
+.visual-refresh .panel__5dec7,  /* share screen */
+.panels_c48ade { /* User Panel Parent Wrapper */
     background: none !important;
 }
 
