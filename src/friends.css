@@ -4,8 +4,9 @@
 }
 
 .actionButton_f8fa06,
-.searchBar__5ec2f {
-    background: none;
+.searchBar__5ec2f,
+.itemCard__7e549 {
+    background: none !important;
 }
 
 .visual-refresh .container__133bf,
