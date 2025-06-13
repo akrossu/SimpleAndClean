@@ -22,6 +22,12 @@
 @import url(https://raw.githubusercontent.com/akrossu/SimpleAndClean/refs/heads/main/src/window.css); /* Gets rid of window controls */
 @import url(https://raw.githubusercontent.com/akrossu/SimpleAndClean/refs/heads/main/src/additions/serverCircles.css);
 
+:root { /* App Wallpaper */
+    --app-bg-url: url("https://github.com/akrossu/SimpleAndClean/blob/main/src/resources/sample-wallpapers/5669.png?raw=true");
+    /* --app-bg-url: url("https://github.com/akrossu/SimpleAndClean/blob/main/src/resources/sample-wallpapers/6.png?raw=true"); */
+    /* --app-bg-url: url("https://github.com/akrossu/SimpleAndClean/blob/main/src/resources/sample-wallpapers/3981.png?raw=true"); */
+}
+
 :root { /* APP COLORS */
     --dark-app-wrapper: lab(4.68% 0 0);
     --dark-sidebar: lab(7.74% 0 0);
@@ -31,13 +37,6 @@
 }
 
 :root { /* MICA */
-    --app-bg-url: url('https://4kwallpapers.com/images/walls/thumbs_3t/5669.jpg');
-    /* --app-bg-url: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/36dc1d86-c763-4307-8f6f-2ea41562fc45/df5x8xe-e84efa8e-20d7-4e5c-b2e8-057705500cce.png/v1/fill/w_1192,h_670,q_70,strp/blueberries_by_hjeusarts_df5x8xe-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvMzZkYzFkODYtYzc2My00MzA3LThmNmYtMmVhNDE1NjJmYzQ1XC9kZjV4OHhlLWU4NGVmYThlLTIwZDctNGU1Yy1iMmU4LTA1NzcwNTUwMGNjZS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.JW6CtFrWfQAxm47DnWGB3tcjV49tJYblgt03rD1F_g0'); */
-    /* --app-bg-url: url('https://preview.redd.it/windows-wallpaper-minimalism-1920-x-1080-v0-rfg90adwkbsa1.png?width=1080&crop=smart&auto=webp&s=976b9661b09dc3d35152759246f9d6396d90ce5b'); */
-
-    /* --app-bg-url: url('https://wallpapersok.com/images/hd/windows-11-light-blue-bloom-c03qtyuucvncyjcc.jpg'); */
-    /* --app-bg-url: url('https://i.pinimg.com/736x/05/b4/fb/05b4fbc3f169175e6deb97b3977175b6.jpg'); */
-    
     --app-bg-brightness: 40%;
     --panel-rgb: rgba(0, 0, 0, 0.05);
 }
