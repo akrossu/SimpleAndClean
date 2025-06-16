@@ -1,6 +1,5 @@
 /* ---------------------------------- SETTINGS -------------------------------------*/
 
-.vc-settings-theme-grid { /* Vencord theme layout */
     display: flex;
     flex-direction: column;
 }
@@ -11,3 +10,26 @@
 .standardSidebarView__23e6b {
     margin-left: var(--space-xs);
 }
+
+.sidebarRegionScroller__23e6b,
+.sidebarRegion__23e6b,
+.contentRegion__23e6b,
+.contentRegionScroller__23e6b,
+.standardSidebarView__23e6b {
+    background: none !important;
+}
+
+.sidebarRegion__23e6b {
+    border-right: 1px solid var(--app-border-frame);
+} 
+
+.standardSidebarView__23e6b {
+    border: 1px solid var(--app-border-frame) !important;
+    border-radius: var(--radius-sm);
+    background: var(--panel-rgb) !important;
+    backdrop-filter: blur(80px) saturate(150%) !important;
+    box-shadow: none !important;
+}
+
+
+
