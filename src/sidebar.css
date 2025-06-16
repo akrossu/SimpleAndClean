@@ -69,3 +69,7 @@
 [aria-label="Noise Suppression powered by Krisp"] {
     display: none !important;
 }
+
+.bottom__7aaec { /* # in voicechat fix for large servers */
+    bottom: 0 !important;
+}

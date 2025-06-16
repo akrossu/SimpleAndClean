@@ -17,7 +17,7 @@
 .container__2637a,
 [aria-label="User area"], .panel__5dec7,
 .title_f75fb0, .chat_f75fb0,
-.container_f37cb1, .container_c8ffbb, .scroller__629e4,/* Server */
+.container_f37cb1, .container_c8ffbb,/* Server */
 .searchBar__35e86, .scroller__99e7c, /* DMs */
 .chatContent_f75fb0  {
     background: var(--panel-rgb) !important; /* translucent layer */
