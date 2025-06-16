@@ -23,9 +23,9 @@
 @import url(https://raw.githubusercontent.com/akrossu/SimpleAndClean/refs/heads/main/src/additions/serverCircles.css);
 
 :root { /* App Wallpaper */
-    --app-bg-url: url("https://github.com/akrossu/SimpleAndClean/blob/main/src/resources/sample-wallpapers/5669.png?raw=true");
+    --app-bg-url: url("https://github.com/akrossu/SimpleAndClean/blob/main/src/resources/sample-wallpapers/5669.jpg?raw=true");
     /* --app-bg-url: url("https://github.com/akrossu/SimpleAndClean/blob/main/src/resources/sample-wallpapers/6.png?raw=true"); */
-    /* --app-bg-url: url("https://github.com/akrossu/SimpleAndClean/blob/main/src/resources/sample-wallpapers/3981.png?raw=true"); */
+    /* --app-bg-url: url("https://github.com/akrossu/SimpleAndClean/blob/main/src/resources/sample-wallpapers/3981.jpg?raw=true"); */
 }
 
 :root { /* APP COLORS */
