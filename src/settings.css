@@ -1,5 +1,6 @@
 /* ---------------------------------- SETTINGS -------------------------------------*/
 
+.vc-settings-theme-grid {
     display: flex;
     flex-direction: column;
 }
