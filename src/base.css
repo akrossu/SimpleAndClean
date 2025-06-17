@@ -7,6 +7,11 @@ body {
     background-color: var(--app-bg) !important;
 }
 
+/* app border */
+.app__160d8 {
+    padding: 0 var(--space-xs) var(--space-xs) 0;
+}
+
 /* Background for theme card [by Gibbu] */
 /* [id="Simple and Clean-card"] {
     position: relative;
