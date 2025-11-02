@@ -1,4 +1,4 @@
-.page_c48ade {
+.page__5e434 {
     border-radius: var(--radius-sm);
     border: 1px solid var(--app-border-frame) !important;
 }
@@ -16,7 +16,7 @@
     background: transparent !important;
 }
 
-.visual-refresh .sidebarListRounded_c48ade {
+.visual-refresh .sidebarListRounded__5e434 {
     backdrop-filter: none;
 }
 
@@ -35,7 +35,7 @@
     margin-bottom: var(--space-xs);
 }
 
-.page_c48ade,
+.page__5e434,
 .scroller__7d20c,
 [aria-label="Friends"] {
     border: none !important;

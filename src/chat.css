@@ -51,7 +51,7 @@
 }
 
 /* Voice Chat FullScreen Border Fix */
-.base_c48ade {
+.base__5e434 {
     grid-template-areas: "titleBar titleBar titleBar" "guildsList notice notice" "guildsList channelsList page" !important;
 }
 
