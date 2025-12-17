@@ -20,7 +20,7 @@
 @import url(https://raw.githubusercontent.com/akrossu/SimpleAndClean/refs/heads/main/src/settings.css);
 
 /* Optional Additions */
-@import url(https://raw.githubusercontent.com/akrossu/SimpleAndClean/refs/heads/main/src/window.css); /* Gets rid of window controls */
+@import url(https://raw.githubusercontent.com/akrossu/SimpleAndClean/refs/heads/main/src/window.css);
 @import url(https://raw.githubusercontent.com/akrossu/SimpleAndClean/refs/heads/main/src/additions/serverCircles.css);
 
 :root { /* App Wallpaper */
@@ -42,6 +42,11 @@
     --panel-rgb: rgba(0, 0, 0, 0.05);
 }
 
+:root { /* APP SETTINGS */
+    --border-radius: .5rem;
+    --margin-size: .5rem;
+}
+
 .visual-refresh.theme-dark {
     --app-bg: var(--dark-app-wrapper);
 }
@@ -49,6 +54,3 @@
 .visual-refresh.theme-light {
     --app-bg: var(--light-app-wrapper);
 }
-
-/* -------------------------- PASTE CODE BELOW -------------------------- */
-
