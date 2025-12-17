@@ -1,13 +1,21 @@
-/* Discord Overrides */
-:root { 
-    --custom-app-top-bar-height: var(--space-xs);
-}
-
-.bar_c38106 div {
+.c38106a3f0c3ca76-bar { /* Title Bar */
     display: none !important;
 }
 
-.bar_c38106 {
-    margin: 0;
-    padding: 0;
+/* app border */
+.a3002d7de5be5280-appAsidePanelWrapper {
+    padding: 0 !important;
+}
+._5e434347c823b592-container {
+    padding-top: var(--margin-size);
+    padding-bottom: var(--margin-size);
+}
+.f75fb00fb7356cbe-chat {
+    margin-right: var(--margin-size) !important;
+    border-radius: 0 8px 8px 0;
+}
+
+/* remove unfullscreen? */
+[data-fullscreen="false"] {
+    grid-template-rows: [top] min-content [titleBarEnd] min-content [noticeEnd] 1fr [end];
 }
