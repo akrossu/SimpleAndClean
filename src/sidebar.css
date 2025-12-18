@@ -61,7 +61,6 @@
 [aria-label="User area"] {
     left: calc(var(--custom-guild-list-width)) !important;
     width: calc(100% - var(--custom-guild-list-width)) !important;
-    padding-top: 5px;
     bottom: 0;
     border-radius: var(--border-radius) !important;
 }
