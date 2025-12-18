@@ -7,6 +7,7 @@
 .a3002d7de5be5280-appAsidePanelWrapper {
     padding: 0 !important;
 }
-._5e434347c823b592-container {
-    padding-bottom: var(--margin-size);
+
+._5e434347c823b592-content {
+    padding: 0 var(--margin-size) var(--margin-size) 0;
 }
