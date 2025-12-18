@@ -29,22 +29,24 @@
     /* --app-bg-url: url("https://github.com/akrossu/SimpleAndClean/blob/main/src/resources/sample-wallpapers/3981.jpg?raw=true"); */
 }
 
-:root { /* APP COLORS */
+:root {
+    /* ========================= APP COLORS ========================= */
     --dark-app-wrapper: lab(4.68% 0 0);
     --dark-sidebar: lab(7.74% 0 0);
     --dark-backgoround: lab(10.77% 0 0);
 
     --light-app-wrapper: lab(95.15% 0.01 -0.01);
-}
 
-:root { /* MICA */
+    /* ========================= MICA SETTINGS ========================= */
     --app-bg-brightness: 40%;
     --panel-rgb: rgba(0, 0, 0, 0.05);
-}
 
-:root { /* APP SETTINGS */
+    /* ========================= THEME SETTINGS ========================= */
     --border-radius: .5rem;
     --margin-size: .5rem;
+
+    /* ========================= DISCORD OVERRIDES ========================= */
+    --custom-app-top-bar-height: var(--margin-size);
 }
 
 .visual-refresh.theme-dark {
