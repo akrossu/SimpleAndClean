@@ -3,3 +3,24 @@
 .f75fb00fb7356cbe-chat {
     border-radius: var(--border-radius);
 }
+
+.f75fb00fb7356cbe-form {
+    border-top: 1px solid var(--border-muted) !important;
+    border-color: var(--app-frame-border) !important;
+}
+
+.f75fb00fb7356cbe-channelTextArea, /* text input */
+._740174f3d6a2c8fe-scrollableContainer, /* text input */
+.c8ffbb79449f399c-members, /* guild memebers container */
+._5d473ecff348c314-member /* guild member name */ {
+    background: transparent !important;
+}
+
+.f75fb00fb7356cbe-channelTextArea {
+    border: none;
+}
+
+/* Chat Header */
+._974928fe84ca9647-searchBar {
+    background: transparent !important;
+}
