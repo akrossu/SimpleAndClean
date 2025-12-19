@@ -1,27 +1,27 @@
-.page__5e434 {
+._5e434347c823b592-page {
     border-radius: var(--radius-sm);
     border: 1px solid var(--app-border-frame) !important;
 }
 
-.actionButton_f8fa06,
-.searchBar__5ec2f,
-.itemCard__7e549 {
+.f8fa068db52f043f-actionButton,
+._5ec2fb8b5de26b21-searchBar,
+._7e549558f336cddb-itemCard {
     background: none !important;
 }
 
-.visual-refresh .container__133bf,
-.container__7d20c, /* Friends list */
-.container__133bf > *, /* Friends list */
-.nowPlayingColumn__133bf { /* Friends list */
+.visual-refresh ._133bf5eea8e33a34-container,
+._7d20cf18f8a2784c-container, /* Friends list */
+._133bf5eea8e33a34-container > *, /* Friends list */
+._133bf5eea8e33a34-nowPlayingColumn { /* Friends list */
     background: transparent !important;
 }
 
-.visual-refresh .sidebarListRounded__5e434 {
+.visual-refresh ._5e434347c823b592-sidebarListRounded {
     backdrop-filter: none;
 }
 
-.visual-refresh .peopleColumn__133bf,
-.visual-refresh .nowPlayingColumn__133bf,
+.visual-refresh ._133bf5eea8e33a34-peopleColumn,
+.visual-refresh ._133bf5eea8e33a34-nowPlayingColumn,
 [role="navigation"] {
     background: var(--panel-rgb) !important;
     backdrop-filter: blur(80px) saturate(150%) !important;
@@ -35,21 +35,23 @@
     margin-bottom: var(--space-xs);
 }
 
-.page__5e434,
-.scroller__7d20c,
+._5e434347c823b592-page,
+._7d20cf18f8a2784c-scroller,
 [aria-label="Friends"] {
     border: none !important;
 }
 
 
-.peopleColumn__133bf {
+._133bf5eea8e33a34-peopleColumn {
     border: 1px var(--app-border-frame) solid !important;
     border-radius: var(--radius-sm);
 }
 
-.nowPlayingColumn__133bf {
+._133bf5eea8e33a34-nowPlayingColumn {
     margin-left: var(--space-xs);
     border: 1px var(--app-border-frame) solid !important;
     border-radius: var(--radius-sm);
     top: -50px;
 }
+
+/* Message Requests */
