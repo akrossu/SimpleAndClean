@@ -1,13 +1,9 @@
-/* Discord Overrides */
-:root { 
-    --custom-app-top-bar-height: var(--space-xs);
-}
-
-.bar_c38106 div {
+/* Title Bar Children */
+.c38106a3f0c3ca76-bar div {
     display: none !important;
 }
 
-.bar_c38106 {
-    margin: 0;
-    padding: 0;
+/* app border */
+._5e434347c823b592-content {
+    padding: 0 var(--margin-size) var(--margin-size) 0;
 }

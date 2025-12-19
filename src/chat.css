@@ -1,63 +1,26 @@
-/* ------------------- chat header ------------------- */
-[aria-label="Set DM Wallpaper"],
-[aria-label="Start Video Call"] {
-    display: none !important;
-}
-
 /* ------------------- chat area ----------------------*/
 
-.chat_f75fb0 {
-    border-radius: var(--radius-sm);
-    border: 1px solid var(--app-border-frame) !important;
-}
-.visual-refresh .chat_f75fb0[data-has-border=true] {
-    border-top: none;
+.f75fb00fb7356cbe-chat {
+    border-radius: var(--border-radius);
 }
 
-.chatContent_f75fb0 form {
-    padding: 0px !important;
+.f75fb00fb7356cbe-form {
+    border-top: 1px solid var(--border-muted) !important;
+    border-color: var(--app-frame-border) !important;
 }
 
-.channelTextArea_f75fb0 {
-    margin: 0 !important;
+.f75fb00fb7356cbe-channelTextArea, /* text input */
+._740174f3d6a2c8fe-scrollableContainer, /* text input */
+.c8ffbb79449f399c-members, /* guild memebers container */
+._5d473ecff348c314-member /* guild member name */ {
+    background: transparent !important;
 }
 
-/* typing_b88801  */
-.typing_b88801 {
-    top: -25px;
+.f75fb00fb7356cbe-channelTextArea {
+    border: none;
 }
 
-.scroller__36d07  { /* Shifts main message window up */
-    padding-bottom: 1rem;
-}
-
-:where(.visual-refresh) .channelTextArea__74017 {
-    border-radius: 0 !important;
-}
-
-.visual-refresh .channelTextArea_f75fb0,
-:where(.visual-refresh) .themedBackground__74017 {
-    background: none !important;
-}
-
-:where(.visual-refresh) .channelTextArea__74017 {
-    border-bottom: 0;
-    border-right: 0;
-    border-left: 0;
-}
-
-.scrollableContainer__74017 {
-    min-height: 56px;
-}
-
-/* Voice Chat FullScreen Border Fix */
-.base__5e434 {
-    grid-template-areas: "titleBar titleBar titleBar" "guildsList notice notice" "guildsList channelsList page" !important;
-}
-
-[aria-label="Send a gift"],
-[aria-label="Open GIF picker"],
-[aria-label="Open sticker picker"],
-.separator_aa63ab /* (accessibiltiy) Send message button seperator */ {
-    display: none !important;
+/* Chat Header */
+._974928fe84ca9647-searchBar {
+    background: transparent !important;
 }

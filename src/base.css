@@ -7,23 +7,3 @@ body {
     background-color: var(--app-bg) !important;
 }
 
-/* app border */
-.app__160d8 {
-    padding: 0 var(--space-xs) var(--space-xs) 0;
-}
-
-/* Background for theme card [by Gibbu] */
-/* [id="Simple and Clean-card"] {
-    position: relative;
-}
-[id="Simple and Clean-card"]::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-    opacity: 0.1;
-    pointer-events: none;
-}
-.theme-dark [id="Simple and Clean-card"]::before {
-    background: url(https://i.imgur.com/c0gDLjC.jpg) center/cover;
-} */

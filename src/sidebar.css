@@ -1,4 +1,50 @@
-/* SERVERS */
+/* sidebar content */
+._5e434347c823b592-sidebar {
+    margin-right: var(--margin-size);
+}
+
+._5e434347c823b592-sidebarList { /* Parent div */
+    border-radius: var(--border-radius);
+    border: none;
+}
+
+._5e434347c823b592-sidebarList nav { /* container */
+    border-radius: var(--border-radius);
+    margin-left: 0;
+    margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs));
+    padding: 0;
+    border: 1px solid var(--border-muted) !important;
+    border-color: var(--app-frame-border) !important;
+}
+
+.f37cb1984c371ee5-header {
+    border: none !important;
+}
+
+._629e4c86564a4ee7-scroller {
+    border-radius: var(--border-radius);
+    margin: 0;
+}
+
+._99e7cad8d4c55236-scroller { /* dm list */
+    margin: 0;
+}
+
+/* banner image */
+.f37cb1984c371ee5-bannerImage img {
+    max-width: calc(100% - 3px); /* y do i need to do this discord. */
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+.f37cb1984c371ee5-hasBanner .f37cb1984c371ee5-headerEllipseBackdrop,
+.f37cb1984c371ee5-hasBanner .f37cb1984c371ee5-headerGlass {
+    left: 0;
+    width: 100%;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+.f37cb1984c371ee5-headerEllipseForeground {
+    display: none;
+}
 
 [aria-label="Servers sidebar"] {
     margin: 0 !important;
@@ -10,66 +56,17 @@
     bottom: 0;
     width: 100%;
 }
-.theme-dark [aria-label="Servers sidebar"]::after {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, var(--background-base-lowest) 100%);
-}
 
-.itemsContainer_ef3116 {
-    background: none !important;
-}
-
-/* Sidebar / User area */
-.visual-refresh .sidebarListRounded__5e434 {
-    border-top-left-radius: 0 !important;
-}
-
-.sidebarList__5e434 nav {
-    padding: 0 !important;
-    margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs));
-    border: 1px solid var(--app-border-frame) !important;
-    border-radius: var(--radius-sm);
-}
-
-.container__2637a {
-    margin-left: 0 !important;
-}
-
-.container__2637a .scroller__629e4,
-.scroller__99e7c {
-    margin: 0 !important;
-}
+/* user area */
 [aria-label="User area"] {
     left: calc(var(--custom-guild-list-width)) !important;
-    width: calc(100% - var(--space-xs) - var(--custom-guild-list-width)) !important;
-    border: 1px solid var(--app-border-frame) !important;
-    background: var(--bg-overlay-4, var(--background-base-lowest)) !important;
-    bottom: 0 !important;
+    width: calc(100% - var(--custom-guild-list-width)) !important;
+    bottom: 0;
+    border-radius: var(--border-radius) !important;
 }
 
-.sidebar__5e434 {
-    border-radius: 0 !important;
-}
-
-.sidebarList__5e434 {
-    margin-right: var(--space-xs);
-    border-radius: var(--radius-sm);
-    overflow: hidden;
-    border: none !important;
-}
-
-.sidebarListRounded__5e434 {
-    border-top-left-radius: 0 !important;
-}
-
-.visual-refresh .panel__5dec7,  /* share screen */
-.panels__5e434 { /* User Panel Parent Wrapper */
-    background: none !important;
-}
-
-[aria-label="Noise Suppression powered by Krisp"] {
-    display: none !important;
-}
-
-.bottom__7aaec { /* # in voicechat fix for large servers */
-    bottom: 0 !important;
+._37e49614b9f110a9-container {
+    border-bottom-left-radius: var(--border-radius) !important;
+    border-bottom-right-radius: var(--border-radius) !important;
+    width: 100%;
 }

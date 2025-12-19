@@ -1,31 +1,36 @@
 /* MICA EFFECTS */
-.bg__960e4 {
+._960e4207cea8323e-bg {
     background: var(--app-bg-url) center center / cover no-repeat !important;
     filter: brightness(var(--app-bg-brightness));
 }
 
-.wrapper_ef3116,
-.container_c8ffbb div {
+ /* sidebase */
+.ef3116c2da186559-wrapper,
+[data-list-id="guildsnav"] [class$="-itemsContainer"] {
     background: transparent !important;
 }
 
-.visual-refresh .sidebarListRounded__5e434 {
+
+
+.visual-refresh ._5e434347c823b592-sidebarListRounded {
     backdrop-filter: none;
 }
 
-.privateChannels_e6b769,
-.container__2637a,
-[aria-label="User area"], .panel__5dec7,
-.title_f75fb0, .chat_f75fb0,
-.container_f37cb1, .container_c8ffbb,/* Server */
-.searchBar_e6b769, .scroller__99e7c, /* DMs */
-.chatContent_f75fb0  {
+.e6b7699ce8339e1c-privateChannels,
+._2637a2609f343032-container,
+._9293f6b2fc12398a-container, /* messsage request header*/
+[aria-label="User area"], ._5dec784a68542d60-panel,
+.f75fb00fb7356cbe-title, .f75fb00fb7356cbe-chat,
+.f37cb1984c371ee5-container, .c8ffbb79449f399c-container,/* Server */
+.e6b7699ce8339e1c-searchBar, ._99e7cad8d4c55236-scroller, /* DMs */
+.f75fb00fb7356cbe-chatContent  {
     background: var(--panel-rgb) !important; /* translucent layer */
     backdrop-filter: blur(80px) saturate(150%) !important;
     box-shadow: none !important;
 }
 
-.scroller__99e7c,
-.container__37e49 {
+._99e7cad8d4c55236-scroller,
+._37e49614b9f110a9-container {
     background: inherit !important;
 }
+

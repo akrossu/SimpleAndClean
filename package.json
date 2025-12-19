@@ -1,0 +1,27 @@
+{
+  "name": "simple-and-clean",
+  "version": "2.1",
+  "description": "<div align=\"center\">\r <h1>SimpleAndClean</h1>",
+  "author": "akross",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx postcss SimpleAndClean.theme.css -o theme.css",
+    "watch:css": "chokidar \"src/**/*.css\" -c \"npm run build:css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akrossu/SimpleAndClean.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akrossu/SimpleAndClean/issues"
+  },
+  "homepage": "https://github.com/akrossu/SimpleAndClean#readme",
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "postcss-import": "^16.1.1"
+  }
+}
