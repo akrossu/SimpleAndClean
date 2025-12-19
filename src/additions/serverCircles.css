@@ -1,32 +1,23 @@
-.svg_cc5dd2 mask {
-    display: none;
-}
-
 :where(
-    .listItemWrapper__91816,
-    .blobContainer_e5445c,
-    [aria-label="Inbox"] /* inbox sidebar fix? */
+    ._918165dab2b1e10b-listItemWrapper,
+    .e5445cbd3ad226f2-blobContainer,
+    [aria-label="Inbox"] 
 ) foreignObject {
     border-radius: 100%;
 }
 
 /* Folder Icons */
-[class*="folderPreview__"] [class*="icon_"] {
+._48112cbe77dc5022-folderPreviewWrapper ._48112cbe77dc5022-folderPreview {
     border-radius: 100% !important;
 }
 
 :where(
-    .selected__91816,
-    .selected_e5445c,
-    .listItemWrapper__91816:hover,
-    .blobContainer_e5445c:hover,
+    ._918165dab2b1e10b-selected,
+    .e5445cbd3ad226f2-selected,
+    ._918165dab2b1e10b-listItemWrapper:hover,
+    .e5445cbd3ad226f2-blobContainer:hover,
     [aria-label="Inbox"]:hover
 ) foreignObject {
     border-radius: var(--radius-md) !important;
     transition: 0.1s ease-out;
-}
-
- /* inbox sidebar fix.... */
-:where([aria-label="Inbox"]) foreignObject:has(.selected__6e9f8) {
-    border-radius: var(--radius-md) !important;
 }
