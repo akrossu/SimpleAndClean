@@ -70,3 +70,11 @@
     border-bottom-right-radius: var(--border-radius) !important;
     width: 100%;
 }
+
+.e131a99484292a19-actionButtons button {
+    background-color: var(--control-secondary-background-default);
+}
+
+.e131a99484292a19-buttonColor:hover {
+    background: var(--control-secondary-background-hover) !important;
+}
