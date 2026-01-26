@@ -21,6 +21,10 @@
 }
 
 /* Chat Header */
-._974928fe84ca9647-searchBar {
+.c322aadb96ff59c9-searchBar {
     background: transparent !important;
+}
+
+.chat_f75fb0[data-has-border=true] {
+    border: 0 !important;
 }
