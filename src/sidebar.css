@@ -99,3 +99,11 @@
 .borders_c4293b {
     border: none;
 }
+
+.e131a99484292a19-actionButtons button {
+    background-color: var(--control-secondary-background-default);
+}
+
+.e131a99484292a19-buttonColor:hover {
+    background: var(--control-secondary-background-hover) !important;
+}
