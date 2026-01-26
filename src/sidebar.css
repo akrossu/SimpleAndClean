@@ -70,6 +70,8 @@
     width: calc(100% - var(--custom-guild-list-width)) !important;
     bottom: 0;
     border-radius: var(--border-radius) !important;
+    background: none !important;
+    border: none;
 }
 
 ._37e49614b9f110a9-container {
