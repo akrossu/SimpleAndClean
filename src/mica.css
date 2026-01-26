@@ -4,12 +4,6 @@
     filter: brightness(var(--app-bg-brightness));
 }
 
- /* Servers Sidebar */
-[aria-label="Servers sidebar"],
-[data-list-id="guildsnav"] > div {
-    background: transparent !important;
-}
-
 .visual-refresh .sidebarListRounded__5e434 { /* i have no clue what this is 4 */
     backdrop-filter: none;
 }

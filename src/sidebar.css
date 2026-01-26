@@ -107,3 +107,8 @@
 .e131a99484292a19-buttonColor:hover {
     background: var(--control-secondary-background-hover) !important;
 }
+
+[aria-label="Servers sidebar"],
+[data-list-id="guildsnav"] > div {
+    background: transparent !important;
+}
