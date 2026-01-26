@@ -17,6 +17,12 @@
     border-color: var(--app-frame-border) !important;
 }
 
+/* ====================== Server Sidebar List ====================== */
+.sidebarList__5e434 .bottom__7aaec { /* Mention Notification fix */
+    bottom: 0;
+    padding: 0;
+}
+
 /* .f37cb1984c371ee5-header {
     border: none !important;
 }
