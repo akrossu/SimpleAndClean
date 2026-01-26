@@ -29,10 +29,8 @@
 }
 
 /* activity feed */
-[aria-label="Friends"] > [role="navigation"] {
-    border: 1px solid var(--app-border-frame) !important;
+[aria-label="Friends"] > section {
     border-radius: var(--radius-sm);
-    margin-bottom: var(--space-xs);
 }
 
 ._5e434347c823b592-page,
@@ -47,10 +45,9 @@
     border-radius: var(--radius-sm);
 }
 
-._133bf5eea8e33a34-nowPlayingColumn {
+.nowPlayingColumn__133bf {
     margin-left: var(--space-xs);
-    border: 1px var(--app-border-frame) solid !important;
-    border-radius: var(--radius-sm);
+    border-left: 1px var(--app-border-frame) solid !important;
     top: -50px;
 }
 
