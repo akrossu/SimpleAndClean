@@ -42,7 +42,6 @@
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
 }
-.f37cb1984c371ee5-headerEllipseForeground {
     display: none;
 }
 
@@ -69,4 +68,22 @@
     border-bottom-left-radius: var(--border-radius) !important;
     border-bottom-right-radius: var(--border-radius) !important;
     width: 100%;
+/* quests */
+.wrapper__0d616 {
+    margin-bottom: var(--margin-size);
+}
+
+.content__0d616 {
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-muted);
+}
+
+.wrapper__0d616 {
+    background: none !important;
+    border-radius: 0;
+    border: none;    
+}
+
+.borders_c4293b {
+    border: none;
 }
