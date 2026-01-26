@@ -24,3 +24,11 @@
 ._974928fe84ca9647-searchBar {
     background: transparent !important;
 }
+
+._36d072eab2b2e737-chatGradient {
+    display: none !important; /* removes from default dark themes */
+}
+
+._36d072eab2b2e737-messagesWrapper { /* chat height */
+    margin-bottom: 16px; /* luv magic numbers */
+}
