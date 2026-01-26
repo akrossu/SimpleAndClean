@@ -1,14 +1,14 @@
-/* sidebar content */
-._5e434347c823b592-sidebar {
+.sidebar__5e434 { /* sidebar content */
     margin-right: var(--margin-size);
 }
 
-._5e434347c823b592-sidebarList { /* Parent div */
+/* ========================= Sidebar List ========================== */
+.sidebarList__5e434 { /* Parent div */
     border-radius: var(--border-radius);
     border: none;
 }
 
-._5e434347c823b592-sidebarList nav { /* container */
+.sidebarList__5e434 nav { /* container */
     border-radius: var(--border-radius);
     margin-left: 0;
     margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs));
@@ -17,31 +17,33 @@
     border-color: var(--app-frame-border) !important;
 }
 
-.f37cb1984c371ee5-header {
+/* .f37cb1984c371ee5-header {
     border: none !important;
 }
 
 ._629e4c86564a4ee7-scroller {
     border-radius: var(--border-radius);
     margin: 0;
-}
+} */
 
-._99e7cad8d4c55236-scroller { /* dm list */
+/* ======================= DMs Sidebar List ======================== */
+.privateChannels_e6b769 .scroller__99e7c { /* dm list */
     margin: 0;
 }
 
-/* banner image */
-.f37cb1984c371ee5-bannerImage img {
+/* ====================== Server Banner Image ====================== */
+.bannerImage_f37cb1 img {
     max-width: calc(100% - 3px); /* y do i need to do this discord. */
     border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
-.f37cb1984c371ee5-hasBanner .f37cb1984c371ee5-headerEllipseBackdrop,
-.f37cb1984c371ee5-hasBanner .f37cb1984c371ee5-headerGlass {
+.hasBanner_f37cb1 .headerEllipseBackdrop_f37cb1,
+.hasBanner_f37cb1 .headerGlass_f37cb1 {
     left: 0;
     width: 100%;
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
 }
+.headerEllipseForeground_f37cb1 {
     display: none;
 }
 
@@ -68,6 +70,8 @@
     border-bottom-left-radius: var(--border-radius) !important;
     border-bottom-right-radius: var(--border-radius) !important;
     width: 100%;
+}
+
 /* quests */
 .wrapper__0d616 {
     margin-bottom: var(--margin-size);
