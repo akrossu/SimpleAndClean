@@ -1,9 +1,9 @@
 /* Title Bar Children */
-.c38106a3f0c3ca76-bar div {
+.bar_c38106 div {
     display: none !important;
 }
 
-/* app border */
-._5e434347c823b592-content {
+/* Title Bar sibling: app border */
+.content__5e434 {
     padding: 0 var(--margin-size) var(--margin-size) 0;
 }
