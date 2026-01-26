@@ -1,25 +1,50 @@
-/* MICA EFFECTS */
-._960e4207cea8323e-bg {
+/* ====================== Mica App Effects ====================== */
+.bg__960e4 /* app background */ {
     background: var(--app-bg-url) center center / cover no-repeat !important;
     filter: brightness(var(--app-bg-brightness));
 }
 
- /* sidebase */
-.ef3116c2da186559-wrapper,
-[data-list-id="guildsnav"] [class$="-itemsContainer"] {
+ /* Servers Sidebar */
+[aria-label="Servers sidebar"],
+[data-list-id="guildsnav"] > div {
     background: transparent !important;
 }
 
-
-
-.visual-refresh ._5e434347c823b592-sidebarListRounded {
+.visual-refresh .sidebarListRounded__5e434 { /* i have no clue what this is 4 */
     backdrop-filter: none;
 }
 
-.e6b7699ce8339e1c-privateChannels,
+/* user area */
+.activityPanel__5e434, /* screen share */
+.wrapper_e131a9, /* voice chat */
+.container__37e49 /* user */ {
+    background: var(--panel-rgb) !important; /* translucent layer */
+    backdrop-filter: blur(80px) saturate(150%) !important;
+    box-shadow: none !important;
+}
+
+/* Private Channels */
+[aria-label="Private channels"], /* Sidebar Listing Parent */
+[data-list-id^="private-channels-uid_"], /* Sidebar Listing */
+.page__5e434 main, /* Friends Page */
+.page__5e434 > div > div /* Private Pages (fix ts) */ {
+    background: var(--panel-rgb) !important; /* translucent layer */
+    backdrop-filter: blur(80px) saturate(150%) !important;
+    box-shadow: none !important;
+}
+
+/* Server Sidebar */
+.container__2637a {
+    background: var(--panel-rgb) !important; /* translucent layer */
+    backdrop-filter: blur(80px) saturate(150%) !important;
+    box-shadow: none !important;
+}
+
+/* =========================================================== */
+/* TODO idk what's happening down here */
 ._2637a2609f343032-container,
 ._9293f6b2fc12398a-container, /* messsage request header*/
-[aria-label="User area"], ._5dec784a68542d60-panel,
+._5dec784a68542d60-panel,
 .f75fb00fb7356cbe-title, .f75fb00fb7356cbe-chat,
 .f37cb1984c371ee5-container, .c8ffbb79449f399c-container,/* Server */
 .e6b7699ce8339e1c-searchBar, ._99e7cad8d4c55236-scroller, /* DMs */
