@@ -33,23 +33,3 @@
     backdrop-filter: blur(80px) saturate(150%) !important;
     box-shadow: none !important;
 }
-
-/* =========================================================== */
-/* TODO idk what's happening down here */
-._2637a2609f343032-container,
-._9293f6b2fc12398a-container, /* messsage request header*/
-._5dec784a68542d60-panel,
-.f75fb00fb7356cbe-title, .f75fb00fb7356cbe-chat,
-.f37cb1984c371ee5-container, .c8ffbb79449f399c-container,/* Server */
-.e6b7699ce8339e1c-searchBar, ._99e7cad8d4c55236-scroller, /* DMs */
-.f75fb00fb7356cbe-chatContent  {
-    background: var(--panel-rgb) !important; /* translucent layer */
-    backdrop-filter: blur(80px) saturate(150%) !important;
-    box-shadow: none !important;
-}
-
-._99e7cad8d4c55236-scroller,
-._37e49614b9f110a9-container {
-    background: inherit !important;
-}
-
