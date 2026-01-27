@@ -32,3 +32,9 @@
 .scrollerSpacer__36d07 { /* Space between text box and chat */
     height: 28px;
 }
+
+.chatGradient__36d07 { /* default theme textbox-chat gradient display */
+    display: none; /* somewhat of a temp fix, not sure y literally copy pasting the dynamic theme styling just doesn't work */
+    /* -webkit-mask: linear-gradient(180deg,#000,transparent) bottom /100% 16px no-repeat,linear-gradient(#000,#000) top /100% calc(100% - 15px) no-repeat;
+    mask: linear-gradient(180deg,#000,transparent) bottom /100% 16px no-repeat,linear-gradient(#000,#000) top /100% calc(100% - 15px) no-repeat */
+}
