@@ -3,20 +3,20 @@
     border-color: var(--app-frame-border) !important;
 }
 
-.f75fb00fb7356cbe-channelTextArea, /* text input */
-._740174f3d6a2c8fe-scrollableContainer, /* text input */
-.c8ffbb79449f399c-members, /* guild memebers container */
-._5d473ecff348c314-member /* guild member name */ {
+.channelTextArea_f75fb0, /* text input */
+.scrollableContainer__74017, /* text input */
     background: transparent !important;
 }
 
-.f75fb00fb7356cbe-channelTextArea {
+.channelTextArea_f75fb0 { /* text input */
     border: none;
+    margin: 0;
 }
 
-/* Chat Header */
-.c322aadb96ff59c9-searchBar {
-    background: transparent !important;
+.title_f75fb0, /* Chat Header */
+.searchBar_c322aa, /* Title bar search */
+.container_c8ffbb, .members_c8ffbb /* Server Members */ {
+    background: var(--panel-rgb) !important;
 }
 
 .chat_f75fb0[data-has-border=true] {
