@@ -24,8 +24,9 @@
     border: 0 !important;
 }
 
-.scroller__36d07 { /* Chat wrapper */
-    bottom: 15px;
+.scroller__36d07, /* Chat wrapper */
+.chatGradient__36d07 { /* bottom chat gradient */
+    bottom: 16px;
 }
 
 .scrollerSpacer__36d07 { /* Space between text box and chat */
