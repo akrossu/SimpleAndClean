@@ -1,14 +1,14 @@
-/* sidebar content */
-._5e434347c823b592-sidebar {
+.sidebar__5e434 { /* sidebar content */
     margin-right: var(--margin-size);
 }
 
-._5e434347c823b592-sidebarList { /* Parent div */
+/* ========================= Sidebar List ========================== */
+.sidebarList__5e434 { /* Parent div */
     border-radius: var(--border-radius);
     border: none;
 }
 
-._5e434347c823b592-sidebarList nav { /* container */
+.sidebarList__5e434 nav { /* container */
     border-radius: var(--border-radius);
     margin-left: 0;
     margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs));
@@ -17,32 +17,39 @@
     border-color: var(--app-frame-border) !important;
 }
 
-.f37cb1984c371ee5-header {
+/* ====================== Server Sidebar List ====================== */
+.sidebarList__5e434 .bottom__7aaec { /* Mention Notification fix */
+    bottom: 0;
+    padding: 0;
+}
+
+/* .f37cb1984c371ee5-header {
     border: none !important;
 }
 
 ._629e4c86564a4ee7-scroller {
     border-radius: var(--border-radius);
     margin: 0;
-}
+} */
 
-._99e7cad8d4c55236-scroller { /* dm list */
+/* ======================= DMs Sidebar List ======================== */
+.privateChannels_e6b769 .scroller__99e7c { /* dm list */
     margin: 0;
 }
 
-/* banner image */
-.f37cb1984c371ee5-bannerImage img {
+/* ====================== Server Banner Image ====================== */
+.bannerImage_f37cb1 img {
     max-width: calc(100% - 3px); /* y do i need to do this discord. */
     border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
-.f37cb1984c371ee5-hasBanner .f37cb1984c371ee5-headerEllipseBackdrop,
-.f37cb1984c371ee5-hasBanner .f37cb1984c371ee5-headerGlass {
+.hasBanner_f37cb1 .headerEllipseBackdrop_f37cb1,
+.hasBanner_f37cb1 .headerGlass_f37cb1 {
     left: 0;
     width: 100%;
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
 }
-.f37cb1984c371ee5-headerEllipseForeground {
+.headerEllipseForeground_f37cb1 {
     display: none;
 }
 
@@ -63,6 +70,8 @@
     width: calc(100% - var(--custom-guild-list-width)) !important;
     bottom: 0;
     border-radius: var(--border-radius) !important;
+    background: none !important;
+    border: none;
 }
 
 ._37e49614b9f110a9-container {
@@ -71,10 +80,35 @@
     width: 100%;
 }
 
+/* quests */
+.wrapper__0d616 {
+    margin-bottom: var(--margin-size);
+}
+
+.content__0d616 {
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-muted);
+}
+
+.wrapper__0d616 {
+    background: none !important;
+    border-radius: 0;
+    border: none;    
+}
+
+.borders_c4293b {
+    border: none;
+}
+
 .e131a99484292a19-actionButtons button {
     background-color: var(--control-secondary-background-default);
 }
 
 .e131a99484292a19-buttonColor:hover {
     background: var(--control-secondary-background-hover) !important;
+}
+
+[aria-label="Servers sidebar"],
+[data-list-id="guildsnav"] > div {
+    background: transparent !important;
 }
