@@ -5,6 +5,7 @@
 
 .channelTextArea_f75fb0, /* text input */
 .scrollableContainer__74017, /* text input */
+[data-list-item-id^="members-"] /* guild member name */ {
     background: transparent !important;
 }
 
@@ -21,4 +22,12 @@
 
 .chat_f75fb0[data-has-border=true] {
     border: 0 !important;
+}
+
+.scroller__36d07 { /* Chat wrapper */
+    bottom: 15px;
+}
+
+.scrollerSpacer__36d07 { /* Space between text box and chat */
+    height: 28px;
 }
