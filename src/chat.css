@@ -1,3 +1,8 @@
+.page__5e434 {
+    border-radius: var(--radius-sm) !important;
+    border: 1px solid var(--app-frame-border) !important;
+}
+
 .form_f75fb0 {
     border-top: 1px solid var(--border-muted) !important;
     border-color: var(--app-frame-border) !important;
