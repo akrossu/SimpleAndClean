@@ -1,5 +1,6 @@
 :where(
-    .wrapper_cc5dd2,
+    .tutorialContainer__650eb .wrapper_cc5dd2,
+    .listItemWrapper__91816 .wrapper_cc5dd2,
     .blobContainer_e5445c,
     [aria-label="Inbox"] 
 ) foreignObject {
