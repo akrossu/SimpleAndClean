@@ -46,7 +46,7 @@ Please note this is an active project—if you encounter issues or visual incons
 
 ## Installation
 
-### ![Vencord](https://camo.githubusercontent.com/a8c728c8a3c92c7ac59e8c811da0e9a00513661c22f6fa4419ed4fbad662cc30/68747470733a2f2f646973636f72642d657874656e73696f6e732e6769746875622e696f2f6173736574732f69636f6e732f76656e636f72642e676966) [Vencord](https://vencord.dev/)
+### [Vencord](https://vencord.dev/)
 
 #### Online
 
@@ -82,7 +82,7 @@ You may edit custom properties found in the [theme file](https://akross.dev/Simp
 <br/>
 
 
-### ![BetterDiscord](https://camo.githubusercontent.com/7d1f99fb97e9ddfc29029b00bed5b0e72f659aa321a8745c60c382e26ee67c35/68747470733a2f2f646973636f72642d657874656e73696f6e732e6769746875622e696f2f6173736574732f69636f6e732f626574746572646973636f72642e706e67) [BetterDiscord](https://betterdiscord.app/)
+### [BetterDiscord](https://betterdiscord.app/)
 
 > [!IMPORTANT]
 > BetterDiscord is not entirely supported as of right now, but I will be slowly adding specific platform support as soon as core features work.
