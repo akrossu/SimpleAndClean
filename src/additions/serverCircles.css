@@ -1,21 +1,21 @@
 :where(
-    ._918165dab2b1e10b-listItemWrapper,
-    .e5445cbd3ad226f2-blobContainer,
+    .wrapper_cc5dd2,
+    .blobContainer_e5445c,
     [aria-label="Inbox"] 
 ) foreignObject {
     border-radius: 100%;
 }
 
 /* Folder Icons */
-._48112cbe77dc5022-folderPreviewWrapper ._48112cbe77dc5022-folderPreview {
+.folderPreviewWrapper__48112 .folderPreview__48112 div {
     border-radius: 100% !important;
 }
 
 :where(
-    ._918165dab2b1e10b-selected,
-    .e5445cbd3ad226f2-selected,
-    ._918165dab2b1e10b-listItemWrapper:hover,
-    .e5445cbd3ad226f2-blobContainer:hover,
+    .selected__91816,
+    .selected_e5445c,
+    .wrapper_cc5dd2:hover,
+    .blobContainer_e5445c:hover,
     [aria-label="Inbox"]:hover
 ) foreignObject {
     border-radius: var(--radius-md) !important;
