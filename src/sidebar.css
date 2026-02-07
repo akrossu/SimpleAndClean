@@ -23,11 +23,11 @@
     padding: 0;
 }
 
-/* .f37cb1984c371ee5-header {
+/* .header_f37cb1 {
     border: none !important;
 }
 
-._629e4c86564a4ee7-scroller {
+.scroller__629e4 {
     border-radius: var(--border-radius);
     margin: 0;
 } */
@@ -74,7 +74,7 @@
     border: none;
 }
 
-._37e49614b9f110a9-container {
+.container__37e49 {
     border-bottom-left-radius: var(--border-radius) !important;
     border-bottom-right-radius: var(--border-radius) !important;
     width: 100%;
@@ -100,11 +100,11 @@
     border: none;
 }
 
-.e131a99484292a19-actionButtons button {
+.actionButtons_e131a9 button {
     background-color: var(--control-secondary-background-default);
 }
 
-.e131a99484292a19-buttonColor:hover {
+.buttonColor_e131a9:hover {
     background: var(--control-secondary-background-hover) !important;
 }
 
