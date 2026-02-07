@@ -64,8 +64,8 @@
     width: 100%;
 }
 
-/* user area */
-[aria-label="User area"] {
+/* User status and settings */
+[aria-label="User status and settings"] {
     left: calc(var(--custom-guild-list-width)) !important;
     width: calc(100% - var(--custom-guild-list-width)) !important;
     bottom: 0;
