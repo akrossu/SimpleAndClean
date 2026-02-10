@@ -1,17 +1,18 @@
+<div align="right">
+  <a href="https://discord.gg/ANgfZVa"><img src="https://img.shields.io/discord/344266404993826817?logo=discord&logoColor=white&label=discord&color=7289DA&style=flat"></a>
+  <img src="https://img.shields.io/github/release/akrossu/SimpleAndClean?logo=github&include_prereleases=&sort=semver&color=62b061&style=flat">
+</div>
+
 <div align="center">
 <h1>SimpleAndClean</h1>
-
-![Release](https://img.shields.io/github/release/akrossu/SimpleAndClean?logo=github&include_prereleases=&sort=semver&color=62b061&style=flat-square) [![Discord](https://img.shields.io/discord/344266404993826817?logo=discord&logoColor=white&label=discord&color=7289DA&style=flat-square)](https://discord.gg/ANgfZVa)
 
 </div>
 
 ## Overview
 
-**SimpleAndClean** aims to deliver as clean of a UI as possible without nipping functionality. It ensures seamless integration and customizability for both casual users and developers alike.
+**SimpleAndClean** aims to deliver as clean of a UI as possible without nipping functionality. It ensures seamless integration and customizability for both casual users and developers.
 
-Please note this is an active project—if you encounter issues or visual inconsistencies, open an issue so I can fix it promptly. Thank you for supporting the theme! :3
-
----
+This is an active project- if you encounter issues or visual inconsistencies, open an issue so I can fix it promptly. Thank you for supporting the theme! :3
 
 ## Features
 
