@@ -1,14 +1,11 @@
-<div align="right">
+<div>
   <a href="https://discord.gg/ANgfZVa"><img src="https://img.shields.io/discord/344266404993826817?logo=discord&logoColor=white&label=discord&color=7289DA&style=flat"></a>
-  <img src="https://img.shields.io/github/release/akrossu/SimpleAndClean?logo=github&include_prereleases=&sort=semver&color=62b061&style=flat">
+  <img align="right" src="https://img.shields.io/github/release/akrossu/SimpleAndClean?logo=github&include_prereleases=&sort=semver&color=62b061&style=flat">
 </div>
 
 <div align="center">
-<h1>SimpleAndClean</h1>
-
+  <h1>SimpleAndClean</h1>
 </div>
-
-## Overview
 
 **SimpleAndClean** aims to deliver as clean of a UI as possible without nipping functionality. It ensures seamless integration and customizability for both casual users and developers.
 
