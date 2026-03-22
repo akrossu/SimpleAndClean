@@ -55,7 +55,7 @@ This is an active project- if you encounter issues or visual inconsistencies, op
 3. Copy and Paste `https://raw.githubusercontent.com/akrossu/SimpleAndClean/refs/heads/main/SimpleAndClean.theme.css` into the textbox.
 
 You may edit custom properties found in the [theme file](https://akross.dev/SimpleAndClean/SimpleAndClean.theme.css) by navigating to `Settings` > `Vencord` > `Themes` > `Local Themes` > `Edit QuickCSS`
-  - By placing the custom property definition within a `:root` selector for example you may add custom backgrounds for both the Online and Local themes:
+  - By placing the custom property definition within a `:root` selector for example you may add custom backgrounds:
 > Note that you may only use web images.
 ```css
 :root {
