@@ -71,7 +71,7 @@
     bottom: 0;
     border-radius: var(--border-radius) !important;
     background: none !important;
-    border: none;
+    border: 1px solid var(--border-muted);
 }
 
 .container__37e49 {
