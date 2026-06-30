@@ -109,6 +109,7 @@
 }
 
 [aria-label="Servers sidebar"],
+[data-list-id="guildsnav"],
 [data-list-id="guildsnav"] > div {
     background: transparent !important;
 }
