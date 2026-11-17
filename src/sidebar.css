@@ -1,14 +1,14 @@
-.sidebar__5e434 { /* sidebar content */
+.sidebar_pog62O { /* sidebar content */
     margin-right: var(--margin-size);
 }
 
 /* ========================= Sidebar List ========================== */
-.sidebarList__5e434 { /* Parent div */
+.sidebarList_pog62O { /* Parent div */
     border-radius: var(--border-radius);
     border: none;
 }
 
-.sidebarList__5e434 nav { /* container */
+.sidebarList_pog62O nav { /* container */
     border-radius: var(--border-radius);
     margin-left: 0;
     margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs));
@@ -18,38 +18,38 @@
 }
 
 /* ====================== Server Sidebar List ====================== */
-.sidebarList__5e434 .bottom__7aaec { /* Mention Notification fix */
+.sidebarList_pog62O .bottom_t1P8Sn { /* Mention Notification fix */
     bottom: 0;
     padding: 0;
 }
 
-/* .header_f37cb1 {
+/* .header_XH4OpX {
     border: none !important;
 }
 
-.scroller__629e4 {
+.scroller_ysO7Gy {
     border-radius: var(--border-radius);
     margin: 0;
 } */
 
 /* ======================= DMs Sidebar List ======================== */
-.privateChannels_e6b769 .scroller__99e7c { /* dm list */
+.privateChannels_u88IQl .scroller_Bce46W { /* dm list */
     margin: 0;
 }
 
 /* ====================== Server Banner Image ====================== */
-.bannerImage_f37cb1 img {
+.bannerImage_XH4OpX img {
     max-width: calc(100% - 3px); /* y do i need to do this discord. */
     border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
-.hasBanner_f37cb1 .headerEllipseBackdrop_f37cb1,
-.hasBanner_f37cb1 .headerGlass_f37cb1 {
+.hasBanner_XH4OpX .headerEllipseBackdrop_XH4OpX,
+.hasBanner_XH4OpX .headerGlass_XH4OpX {
     left: 0;
     width: 100%;
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
 }
-.headerEllipseForeground_f37cb1 {
+.headerEllipseForeground_XH4OpX {
     display: none;
 }
 
@@ -74,14 +74,14 @@
     border: 1px solid var(--border-muted);
 }
 
-.container__37e49 {
+.container_g6VwXp {
     border-bottom-left-radius: var(--border-radius) !important;
     border-bottom-right-radius: var(--border-radius) !important;
     width: 100%;
 }
 
 /* quests */
-.wrapper__0d616 {
+.wrapper_jdr5pz {
     margin-bottom: var(--margin-size);
 }
 
@@ -90,21 +90,21 @@
     border: 1px solid var(--border-muted);
 }
 
-.wrapper__0d616 {
+.wrapper_jdr5pz {
     background: none !important;
     border-radius: 0;
     border: none;    
 }
 
-.borders_c4293b {
+.borders_VCaaii {
     border: none;
 }
 
-.actionButtons_e131a9 button {
+.actionButtons_9U6LUN button {
     background-color: var(--control-secondary-background-default);
 }
 
-.buttonColor_e131a9:hover {
+.buttonColor_9U6LUN:hover {
     background: var(--control-secondary-background-hover) !important;
 }
 

@@ -4,22 +4,22 @@
     border-bottom: 1px solid var(--app-frame-border) !important;
 }
 
-.nowPlayingColumn__133bf { /* "Active Now" container */
+.nowPlayingColumn_zrUwGA { /* "Active Now" container */
     margin-left: var(--space-xs);
     border-left: 1px solid var(--app-frame-border) !important;
     top: -50px;
     background: var(--panel-rgb) !important; /* translucent layer */
 }
 
-.itemCard__7e549, .headerFull__00943, .body__00943 { /* makes activity cards darker */
+.itemCard_-7KzVR, .headerFull_o3hXTo, .body_o3hXTo { /* makes activity cards darker */
     background: var(--panel-rgb) !important; /* translucent layer */
 }
 
-.nowPlayingColumn__133bf .scroller__7d20c {
+.nowPlayingColumn_zrUwGA .scroller_GNEh_C {
     border: none !important;
 }
 
-.actionButton_f8fa06 {
+.actionButton_5GqXgh {
     background: var(--panel-rgb) !important;
     border: 1px solid var(--border-subtle) !important;
 }

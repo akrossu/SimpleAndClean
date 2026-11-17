@@ -1,44 +1,44 @@
-.page__5e434 {
+.page_pog62O {
     border-radius: var(--radius-sm) !important;
     border: 1px solid var(--app-frame-border) !important;
 }
 
-.form_f75fb0 {
+.form_z_gUBg {
     border-top: 1px solid var(--border-muted) !important;
     border-color: var(--app-frame-border) !important;
 }
 
-.channelTextArea_f75fb0, /* text input */
-.scrollableContainer__74017, /* text input */
+.channelTextArea_z_gUBg, /* text input */
+.scrollableContainer_2x8-Qn, /* text input */
 [data-list-item-id^="members-"] /* guild member name */ {
     background: transparent !important;
 }
 
-.channelTextArea_f75fb0 { /* text input */
+.channelTextArea_z_gUBg { /* text input */
     border: none;
     margin: 0;
 }
 
-.title_f75fb0, /* Chat Header */
-.searchBar_c322aa, /* Title bar search */
-.container_c8ffbb, .members_c8ffbb /* Server Members */ {
+.title_z_gUBg, /* Chat Header */
+.searchBar_i16Ad0, /* Title bar search */
+.container_86es0b, .members_86es0b /* Server Members */ {
     background: var(--panel-rgb) !important;
 }
 
-.chat_f75fb0[data-has-border=true] {
+.chat_z_gUBg[data-has-border=true] {
     border: 0 !important;
 }
 
-.scroller__36d07, /* Chat wrapper */
-.chatGradient__36d07 { /* bottom chat gradient */
+.scroller_8AE1Qq, /* Chat wrapper */
+.chatGradient_8AE1Qq { /* bottom chat gradient */
     bottom: 16px;
 }
 
-.scrollerSpacer__36d07 { /* Space between text box and chat */
+.scrollerSpacer_8AE1Qq { /* Space between text box and chat */
     height: 28px;
 }
 
-.chatGradient__36d07 { /* default theme textbox-chat gradient display */
+.chatGradient_8AE1Qq { /* default theme textbox-chat gradient display */
     display: none; /* somewhat of a temp fix, not sure y literally copy pasting the dynamic theme styling just doesn't work */
     /* -webkit-mask: linear-gradient(180deg,#000,transparent) bottom /100% 16px no-repeat,linear-gradient(#000,#000) top /100% calc(100% - 15px) no-repeat;
     mask: linear-gradient(180deg,#000,transparent) bottom /100% 16px no-repeat,linear-gradient(#000,#000) top /100% calc(100% - 15px) no-repeat */

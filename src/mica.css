@@ -1,17 +1,17 @@
 /* ====================== Mica App Effects ====================== */
-.bg__960e4 /* app background */ {
+.bg_Fd0FEH /* app background */ {
     background: var(--app-bg-url) center center / cover no-repeat !important;
     filter: brightness(var(--app-bg-brightness));
 }
 
-.visual-refresh .sidebarListRounded__5e434 { /* i have no clue what this is 4 */
+.visual-refresh .sidebarListRounded_pog62O { /* i have no clue what this is 4 */
     backdrop-filter: none;
 }
 
 /* user area */
-.activityPanel__5e434, /* screen share */
-.wrapper_e131a9, /* voice chat */
-.container__37e49 /* user */ {
+.activityPanel_pog62O, /* screen share */
+.wrapper_9U6LUN, /* voice chat */
+.container_g6VwXp /* user */ {
     background: var(--panel-rgb) !important; /* translucent layer */
     backdrop-filter: blur(80px) saturate(150%) !important;
     box-shadow: none !important;
@@ -20,15 +20,15 @@
 /* Private Channels */
 [aria-label="Private channels"], /* Sidebar Listing Parent */
 [data-list-id^="private-channels-uid_"], /* Sidebar Listing */
-.page__5e434 main, /* Friends Page */
-.page__5e434 > div > div /* Private Pages (fix ts) */ {
+.page_pog62O main, /* Friends Page */
+.page_pog62O > div > div /* Private Pages (fix ts) */ {
     background: var(--panel-rgb) !important; /* translucent layer */
     backdrop-filter: blur(80px) saturate(150%) !important;
     box-shadow: none !important;
 }
 
 /* Server Sidebar */
-.container__2637a {
+.container_H5ozaj {
     background: var(--panel-rgb) !important; /* translucent layer */
     backdrop-filter: blur(80px) saturate(150%) !important;
     box-shadow: none !important;
